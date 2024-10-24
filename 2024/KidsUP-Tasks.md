@@ -1,9 +1,14 @@
 - Kids up Tasks
+
   - [x] Learn option changes for event site
   - [x] Reformat how snack calculation is done to be programmatic based on a single written value
   - [x] Style photo service button and change to new invoice path
-  - [] Create a button to download a list of photo kids + siblings
-    - [] Copy query from event sheet
+  - [x] Create a button to download a list of photo kids + siblings
+    - | [     |     |
+      | ----- | --- |
+      | Item1 |
+      | Item2 |
+      Copy query from event sheet
     - [] For parties, include name of party also
   - [x] Switch seasonal site to new booking page
   - [] add organisationID to kids
@@ -28,17 +33,24 @@
     - [] on teacher_lesson modal
     - [] button on lessons page to mark all reviews acted on, they won't count to current score
   - [] add a way to upload splash images for LMS through frontend similar to seasonal site and have it automatically displayed, except needs a way to mark them active/inactive/have multiple images on rotation
+
+  - [] Add download buttons
+  - [] Figure out putting names on tabs, embedding in an iframe could have a title but it didn't work with different doc types
+  - [] put a background on tests
+  - [] fix test box size for scores so that you can see numbers (doesn't work on ipads)
+  - [] Be able to change vision up logo on guides to Ku
+
 - BRETT GONE PREP
 
   - [] Make sure I have credentials
-    - [] AWS
+    - [x] AWS
     - [] docker
-    - [] github
-    - [] cloudflare
+    - [x] github
+    - [x] cloudflare
     - [] SSH
     - [] VPN
     - [] Run through Disaster scenarios
       - [] cloudflare issue
       - [] event crash
       - [] LMS crash
-      - [] Someone goofed things on GITHUB, rollback things.
+      - [x] Someone goofed things on GITHUB, rollback things.
