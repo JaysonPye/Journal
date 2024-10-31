@@ -44,13 +44,13 @@
 
   - [] Make sure I have credentials
     - [x] AWS
-    - [] docker
+    - [x] docker
     - [x] github
     - [x] cloudflare
-    - [] SSH
-    - [] VPN
-    - [] Run through Disaster scenarios
-      - [] cloudflare issue
-      - [] event crash
-      - [] LMS crash
+    - [x] SSH
+    - [x] VPN
+    - [x] Run through Disaster scenarios
+      - [x] cloudflare issue
+      - [x] event crash
+      - [x] LMS crash
       - [x] Someone goofed things on GITHUB, rollback things.
