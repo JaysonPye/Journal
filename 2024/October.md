@@ -45,6 +45,11 @@
 
 # REBRANDING
 
-- Hosting to hub.kids-up.app needs to happen asap
-- Double check through the site and check for potential issues with the rebrand
--
+[x] Hosting to hub.kids-up.app needs to happen asap
+[x] Double check through the site and check for potential issues with the rebrand
+
+# 11/2 SES issues
+
+- Worked extensively on amazon mailer changes
+- Fixed bugs related to new amazon key updates and how environment variables were saved inside of the sign up app.
+- Also did a lot of self study for design elements that need to be adjusted
