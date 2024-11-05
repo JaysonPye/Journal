@@ -13,3 +13,15 @@
 - Completed Odin's sign up page html/css project. Honestly I've usually frameworks too much so I feel like my baseline html/css skills are underwhelming. Completing this course is giving me a lot more confidence that I can find answers quickly, it also helps me diagnose problems faster.
 - Read a chapter of the rails 7 way which had to do with mailing services, learned a lot about current work mailers and how they are being used in our projects currently.
 - Took a look at the setsumeikai React app in order to fix a few issues that the department head asked me to look into.
+
+### 11/4
+
+- Studied intermediate grids on odin project
+- Adapted some views on world projects
+- Troubleshooted mail issues created by replacing SES secret key
+
+### 11/5
+
+- Mostly problem solving with a few issues at work, particularly SES mailer servies as well as DB_PROTOTYPE survey functions
+- Turns out surveys were refactored at some point and not tested properly, so responses aren't recorded and creation/deletion from front end were broken.
+- I adapted some of the old functions to get it working, still a bit to do on 11/6.
