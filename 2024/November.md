@@ -25,3 +25,7 @@
 - Mostly problem solving with a few issues at work, particularly SES mailer servies as well as DB_PROTOTYPE survey functions
 - Turns out surveys were refactored at some point and not tested properly, so responses aren't recorded and creation/deletion from front end were broken.
 - I adapted some of the old functions to get it working, still a bit to do on 11/6.
+
+### 11/6
+
+- Troubleshooted Surveys in order to create admin views for create/edit actions, they were previously added but seemed to be incomplete/completely non functional.
