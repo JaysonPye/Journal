@@ -45,6 +45,11 @@
 
 # REBRANDING
 
-- Hosting to hub.kids-up.app needs to happen asap
-- Double check through the site and check for potential issues with the rebrand
+[] Hosting to hub.kids-up.app needs to happen asap
+[x] Double check through the site and check for potential issues with the rebrand
+
 -
+
+# TRANSLATIONS BUG
+
+- SVG MISSING classes.svg
