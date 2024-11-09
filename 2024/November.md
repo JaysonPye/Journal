@@ -29,3 +29,9 @@
 ### 11/6
 
 - Troubleshooted Surveys in order to create admin views for create/edit actions, they were previously added but seemed to be incomplete/completely non functional.
+
+### 11/9
+
+- Continued efforts to improve at front end coding speed and knowledge.
+- Grid examples completed and subsequent odin project learning materials studied.
+- Worked on larger odin project for intermediate grids.
