@@ -35,3 +35,9 @@
 - Continued efforts to improve at front end coding speed and knowledge.
 - Grid examples completed and subsequent odin project learning materials studied.
 - Worked on larger odin project for intermediate grids.
+
+### 11/12
+
+- Reworked some app site forms that broke when they were refactored.
+- intermediate grid project studied, learned a lot about nesting grids within grids within grids and how well you can position things.
+- Again realized that my front end skills need work, I think it is just reps so that I can code quickly without wasting time looking for syntax or resaving the file to see positioning with certain commands
