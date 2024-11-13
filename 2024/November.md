@@ -41,3 +41,8 @@
 - Reworked some app site forms that broke when they were refactored.
 - intermediate grid project studied, learned a lot about nesting grids within grids within grids and how well you can position things.
 - Again realized that my front end skills need work, I think it is just reps so that I can code quickly without wasting time looking for syntax or resaving the file to see positioning with certain commands
+
+### 11/13
+
+- Changed Survey responses on the sign up site, after it was refactored it wasn't correctly inputting to an array of hashes, it had a double array which sent errors to parents that submitted the form.
+- Looked at invoice creation with materials site. Needs to be able to send invoices to organisation customers based on child numbers that month, with the appropriate paper trail and security measures.
