@@ -41,3 +41,8 @@
 - Reworked some app site forms that broke when they were refactored.
 - intermediate grid project studied, learned a lot about nesting grids within grids within grids and how well you can position things.
 - Again realized that my front end skills need work, I think it is just reps so that I can code quickly without wasting time looking for syntax or resaving the file to see positioning with certain commands
+
+### 11/18
+
+- Read activemailer chapter of ruby 7
+- Researched Japan invoicing law in order to automate invoicing for materials application
