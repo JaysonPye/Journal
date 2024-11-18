@@ -46,3 +46,8 @@
 
 - Read activemailer chapter of ruby 7
 - Researched Japan invoicing law in order to automate invoicing for materials application
+
+### 11/13
+
+- Changed Survey responses on the sign up site, after it was refactored it wasn't correctly inputting to an array of hashes, it had a double array which sent errors to parents that submitted the form.
+- Looked at invoice creation with materials site. Needs to be able to send invoices to organisation customers based on child numbers that month, with the appropriate paper trail and security measures.
