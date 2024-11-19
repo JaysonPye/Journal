@@ -51,3 +51,10 @@
 
 - Changed Survey responses on the sign up site, after it was refactored it wasn't correctly inputting to an array of hashes, it had a double array which sent errors to parents that submitted the form.
 - Looked at invoice creation with materials site. Needs to be able to send invoices to organisation customers based on child numbers that month, with the appropriate paper trail and security measures.
+
+### 11/19
+
+- AWS updates went out which took down the main sign up site, I learned about the permissions service roles had and how to add new permissions to such a role.
+- After fixing the sign up site I realized the photobook app I originally designed has flaws in it's implementation which make this sort of change break it also.
+  I thought about how the app could be implemented and integrated into the sign up app, this would remove the need for google sheets and add the ability to connect photo registrations to the code
+  for photbook app, eliminating a lot of work and automating a lot of what my superior has to do on a quarterly basis.
