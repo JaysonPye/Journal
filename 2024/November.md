@@ -58,3 +58,8 @@
 - After fixing the sign up site I realized the photobook app I originally designed has flaws in it's implementation which make this sort of change break it also.
   I thought about how the app could be implemented and integrated into the sign up app, this would remove the need for google sheets and add the ability to connect photo registrations to the code
   for photbook app, eliminating a lot of work and automating a lot of what my superior has to do on a quarterly basis.
+
+### 19/21
+
+- Upgraded instances from t3.small to medium, this involved backing up previous configs and database snapshotting in case of failsafes as well as sending announcements to staff in japanese that the service would be down
+- Added changes to my photobook app in order to deal with the new scaling level, I discovered that in some cases in larger schools i can load 9000 thumbnails on a single page, which isn't really tennable especially in a mobile phone situation. Instead of being single paged it will now dynamically change the activities based on a selector.
