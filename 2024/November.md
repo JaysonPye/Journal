@@ -63,3 +63,12 @@
 
 - Upgraded instances from t3.small to medium, this involved backing up previous configs and database snapshotting in case of failsafes as well as sending announcements to staff in japanese that the service would be down
 - Added changes to my photobook app in order to deal with the new scaling level, I discovered that in some cases in larger schools i can load 9000 thumbnails on a single page, which isn't really tennable especially in a mobile phone situation. Instead of being single paged it will now dynamically change the activities based on a selector.
+
+### 11/27
+
+- Edited photobook to load each activity dynamically as the amount of pictures being presented in seasonal was too large.
+- Pushed it to prod after testing
+
+### 11/28
+
+- Added search parameters to lessons to extend to weekly and organisation attachments
