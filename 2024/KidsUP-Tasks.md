@@ -54,3 +54,39 @@
       - [x] event crash
       - [x] LMS crash
       - [x] Someone goofed things on GITHUB, rollback things.
+
+# 28-11
+
+- Add calendar for admins to nav
+- In calendar, make sure special lessons appear at the top rather than the bottom.
+
+## Copy a course but dont link it, we can edit it separately
+
+- It doesnt need to blinked, just added
+- check timestamp availability for when kids are assigned a level
+- Consider guides, how to pair each to each organisation in order to store a kids up one and a vision up one for guides
+
+## Invoice system
+
+- calculations based on student numbers for specific organisations
+- lesson plans xport into a formatted pdf into a proper Invoice
+- probably admin panel
+- easily export a billing amount
+- if we put 4500p/s then make a calculation based on that.
+- check and give a timeframe for jack
+
+## Parents view
+
+- For resources make an attached file verification as you can upload an empty thing which crashes.
+- [] Estimate time required to create parents view
+- admin panels
+- [] Estimate time required for events page by next week
+- Navbar highlighting for teachers is messed up
+
+### Invoice specifics
+
+-
+
+# Events
+
+- Essentially normal teachers ui but for an events version 3 tabs, seasonal, parties, events
