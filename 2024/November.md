@@ -72,3 +72,17 @@
 ### 11/28
 
 - Added search parameters to lessons to extend to weekly and organisation attachments
+
+- save invoice data in database
+- admin view
+- Previous invoices
+
+- Price lists depending on multiple things eg total students - so diff calc pricelists in a concern
+- Creates invoices which we can export as a pdf
+- Costing - 3 prices - details of number of students or plan name
+- bit of breakdown of payment data
+- paid or not added(lay framework)
+- admin panel has a list of invoices newest to oldest
+- when we are creating a new invoice its invoice day I can see their student number, plan information, check box t osay we agree with calcs
+- then create invoice button
+- Accountants???????
