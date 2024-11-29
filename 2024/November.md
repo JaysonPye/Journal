@@ -73,6 +73,16 @@
 
 - Added search parameters to lessons to extend to weekly and organisation attachments
 
+- Can writers be assigned to selected orgs?
+- That org can only access courses associated with that org
+- Scope viewable courses to users org when writer (not admin)
+- add course button is for writers too but with those scopes
+- 0 on week will check lessons without assigned weeks
+- check bug with multiple lessons appearing, plus released stopped working
+- figure out why it worked fine but messed up with multiple nodes
+
+- filter lessons by date of creation
+
 - save invoice data in database
 - admin view
 - Previous invoices
@@ -85,4 +95,9 @@
 - admin panel has a list of invoices newest to oldest
 - when we are creating a new invoice its invoice day I can see their student number, plan information, check box t osay we agree with calcs
 - then create invoice button
-- Accountants???????
+- Accountants??????? for future
+
+11/29
+
+- Estimate rough time required to flesh out parent's view
+- Create base plan for how it will function
