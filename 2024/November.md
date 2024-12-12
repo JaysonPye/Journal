@@ -101,3 +101,10 @@
 
 - Estimate rough time required to flesh out parent's view
 - Create base plan for how it will function
+
+
+
+12/12
+
+- Added seasonal lessons to database, created tests which was much quicker than i could work in ruby previously
+- Added dateranges to creating users and children in the events app
