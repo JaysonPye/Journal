@@ -103,7 +103,7 @@
 - SM manual connection
 - Style according to alex's view
 
-### Parents view for child - 20-30 hours
+### View for child - 20-30 hours
 
 - Table created for each level change, includes student id, old level, new level, date of change
 - Certificate generation based on results (NOT IN THIS VERSION)
@@ -123,7 +123,7 @@
 - Create a view for sms to see all student details, and also link to the parent view of a student
 - Curriculum view
 
-## General changes - 20-40 hours? Lesson plans and tags could take a very long time or not that much.
+## General changes - 30-40 hours? Lesson plans and tags could take a very long time or not that much.
 
 - A lot of documentation (5-8 hours work)
 - Student model needs sex, allergies, status(enum for kyuukai quit current)
