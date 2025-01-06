@@ -135,45 +135,51 @@
 
 # JAN 2025 and onward Event site needs
 
-## Front end view for checking QR code data (views, dates, maybe other things if we need them) listed for each events route
+## Front end view for checking QR code data (views, dates, maybe other things if we need them) listed for each events route ( 6 hours )
 
 - Numbers
 - Dates
 - Can track ips and what devices etc for counts if necessary as we're saving this data
 
-## How many seasonal events
+## How many seasonal events ( 6 hours )
 
 - We currently have a tracker for 5? maybe 10? in order to give a badge
 - SMS asked to track 3
 - Maybe incorporate all of this into one input so a user can search for 2,3,5 etc for future proofing
 
-## When printing attendance sheet for Kawaguchi activity details and date used to show up but now don't
+## When printing attendance sheet for Kawaguchi activity details and date used to show up but now don't ( anywhere from 1 hour to a day depending)
 
 - Look into bug and if it happens in other schools
 - If there is an underlying problem go through and fix it
 
-## Add tab to check bank transfer status for 非会員
+## Add tab to check bank transfer status for 非会員 ( 5 hours )
 
 - add a checkbox here
 - between confirmed email and new coupon
 
-## Allergies
+## Allergies ( not sure )
 
 - Add boolean for whether theres a food allergy
 - (boolean nil is false so maybe need an enum)
 
-## Reorganise stats page
+## Reorganise stats page ( ongoing - at least 8 hours )
 
 - Decide what is useful and remove ones that aren't
 - Add event summary stats
 
-## Surveys
+## Surveys ( 5 hours )
 
 - Survey editing was fixed, but creation still isn't functional
 
-## Ongoing troubleshooting
+## Ongoing troubleshooting ( average an hour a day )
 
 - Message SMS every other day and fix problems that arise such as
 - Deleting students
 - Database issues
 - Crashes
+
+## Documentation revamp ( 8 hours )
+
+- Wiki currently has old information / pictures
+- Needs to be revamped to account for many changes that have taken place
+- Add more advice sections to fix various problems that pop up
