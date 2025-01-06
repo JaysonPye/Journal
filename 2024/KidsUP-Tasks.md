@@ -131,6 +131,49 @@
 - Date of level ups in its own model
 - Styling depending on the URL params eg hub.kids-up.app vision-up.app, these should use the dark mode functionality but take out border radius
 - Lesson plans need two versions and should have one set linked to the kidsup org and the others linked to everyone else (but possibly completely org dependent in the future). Whenever a guide is created it should create TWO of the guides and assign to both. Potentially look into stamping each document in a footer, look into if this can be done to individual document uploads.
-
 - IP LOCKING
--
+
+# JAN 2025 and onward Event site needs
+
+## Front end view for checking QR code data (views, dates, maybe other things if we need them) listed for each events route
+
+- Numbers
+- Dates
+- Can track ips and what devices etc for counts if necessary as we're saving this data
+
+## How many seasonal events
+
+- We currently have a tracker for 5? maybe 10? in order to give a badge
+- SMS asked to track 3
+- Maybe incorporate all of this into one input so a user can search for 2,3,5 etc for future proofing
+
+## When printing attendance sheet for Kawaguchi activity details and date used to show up but now don't
+
+- Look into bug and if it happens in other schools
+- If there is an underlying problem go through and fix it
+
+## Add tab to check bank transfer status for 非会員
+
+- add a checkbox here
+- between confirmed email and new coupon
+
+## Allergies
+
+- Add boolean for whether theres a food allergy
+- (boolean nil is false so maybe need an enum)
+
+## Reorganise stats page
+
+- Decide what is useful and remove ones that aren't
+- Add event summary stats
+
+## Surveys
+
+- Survey editing was fixed, but creation still isn't functional
+
+## Ongoing troubleshooting
+
+- Message SMS every other day and fix problems that arise such as
+- Deleting students
+- Database issues
+- Crashes
