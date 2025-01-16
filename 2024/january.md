@@ -16,19 +16,22 @@
 - Certificate generation based on results (NOT IN THIS VERSION)
 - Requires backend stats to be added to track progress
 - Style according to figma / Alex's views (currently not finished with the child view as far as i've seen)
+-
 
 ### Homework Page upload/download - 15 hours
 
 - Parents can see and download homework for a lesson (homework needs to be attached to that weeks lessons)
 - Parents can upload homework
-- Homework can be downloaded from the teacher's view after it's been submitted
--
+- Homework can be downloaded from the teacher's view after it's been submitte
+- Include last week this week next week-- check materials and use the same "week starting on blabla" search for parents
+- Homework displayed in a table showing hte last two this one and next two.
 
 ## SM view - 20 hours
 
 - Student creation, edit, upload functionality
 - Create a view for sms to see all student details, and also link to the parent view of a student
 - Curriculum view
+
 
 ## General changes - 30-40 hours? Lesson plans and tags could take a very long time or not that much.
 
@@ -40,4 +43,4 @@
 - Lesson plans need two versions and should have one set linked to the kidsup org and the others linked to everyone else (but possibly completely org dependent in the future). Whenever a guide is created it should create TWO of the guides and assign to both. Potentially look into stamping each document in a footer, look into if this can be done to individual document uploads.
 
 - IP LOCKING
--
+- Dump seasonal school picture & date
