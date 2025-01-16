@@ -41,10 +41,23 @@
 - Date of level ups in its own model
 - Styling depending on the URL params eg hub.kids-up.app vision-up.app, these should use the dark mode functionality but take out border radius
 - Lesson plans need two versions and should have one set linked to the kidsup org and the others linked to everyone else (but possibly completely org dependent in the future). Whenever a guide is created it should create TWO of the guides and assign to both. Potentially look into stamping each document in a footer, look into if this can be done to individual document uploads.
+- SOLUTION: Create children of the same model associated by lesson_id, these children will be edited when the main is edited, They will contain the exact same content but be scoped to show based on org_id of the user, 
+- ENUM for now for children so that more can be added later, for now only two footers are necessary, ku and vision. Defaults to vision version for all or ku for ku.
+
+[x] Create enum for child lessons
+[]  Add child lessons in migrations, cihld lessons associated by lesson_id, has enum for each
+[]  Add footer adding ability for both, takes in the docs and draws a footer with prawn
+[]  add a method to create multiples when its created
+[]  Have views display lesson based on orgid (I guess this should be in the lessons scope somewhere)
+[]  
 
 - IP LOCKING
+[x] add functionality to lock by ip
+[]  Add ips for each school
 - Dump seasonal school picture & date
 
 
 [x] Branding based on URL params
 [] Styling based on params (kids up colors to test KU, rest same)
+
+
