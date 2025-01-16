@@ -44,3 +44,7 @@
 
 - IP LOCKING
 - Dump seasonal school picture & date
+
+
+[x] Branding based on URL params
+[] Styling based on params (kids up colors to test KU, rest same)
