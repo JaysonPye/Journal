@@ -32,32 +32,41 @@
 - Create a view for sms to see all student details, and also link to the parent view of a student
 - Curriculum view
 
-
 ## General changes - 30-40 hours? Lesson plans and tags could take a very long time or not that much.
 
 - A lot of documentation (5-8 hours work)
 - Student model needs sex, allergies, status(enum for kyuukai quit current)
 - All lessons need partner lessons to connect
 - Date of level ups in its own model
+- Date of level ups needs to be taken from SS -- there are dates there about when students moved level to level, need this information from Leroy and have to edit the students parser
 - Styling depending on the URL params eg hub.kids-up.app vision-up.app, these should use the dark mode functionality but take out border radius
 - Lesson plans need two versions and should have one set linked to the kidsup org and the others linked to everyone else (but possibly completely org dependent in the future). Whenever a guide is created it should create TWO of the guides and assign to both. Potentially look into stamping each document in a footer, look into if this can be done to individual document uploads.
-- SOLUTION: Create children of the same model associated by lesson_id, these children will be edited when the main is edited, They will contain the exact same content but be scoped to show based on org_id of the user, 
+- SOLUTION: Create children of the same model associated by lesson_id, these children will be edited when the main is edited, They will contain the exact same content but be scoped to show based on org_id of the user.
 - ENUM for now for children so that more can be added later, for now only two footers are necessary, ku and vision. Defaults to vision version for all or ku for ku.
+-
 
 [x] Create enum for child lessons
-[]  Add child lessons in migrations, cihld lessons associated by lesson_id, has enum for each
-[]  Add footer adding ability for both, takes in the docs and draws a footer with prawn
-[]  add a method to create multiples when its created
-[]  Have views display lesson based on orgid (I guess this should be in the lessons scope somewhere)
-[]  
+[x] Add helper to differentiate between footers
+[x] Add footers
+[x] Add footer method to file controller
+[x] file controller adds footers to all pdfs depending on
+[] Tests?
 
 - IP LOCKING
-[x] add functionality to lock by ip
-[]  Add ips for each school
+  [x] add functionality to lock by ip
+  [] Add ips for each school
 - Dump seasonal school picture & date
 
-
 [x] Branding based on URL params
-[] Styling based on params (kids up colors to test KU, rest same)
+[] Styling based on params (kids up colors to test KU, rest same) --- maybe just dark mode
 
 
+
+
+
+
+# 17/01
+-   Edited Spring school jp site text
+-   Fixed translation issues in seasonal
+-   Added dynamic footer on download functionality to materials app (still on a branch)
+-   Added more branding differentials based on url
