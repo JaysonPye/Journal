@@ -12,16 +12,14 @@
 ### Outer View - 15-20 hours
 
 - Contact with event information
-- Contact information needs to be added to schools (phone number, address)
-- Add student connection
-- SM manual connection
-- Style according to alex's view
 
 [x] Add contact info
 [x] Add icon to db
 [x] Add student sex to db
-[] Implement icon visibility
-[] Have icons in a flex showing their kids along a row
+[x] Implement icon visibility
+[x] Have icons in a flex showing their kids along a row
+[x] Parents can add their own student properly
+[] Orgadmin / admin Event picture adding view.
 []
 
 ### View for child - 20-30 hours
@@ -33,37 +31,33 @@
 
 ### Homework Page upload/download - 15 hours
 
-- Parents can see and download homework for a lesson (homework needs to be attached to that weeks lessons)
+- Parents can seex and download homework for a lesson (homework needs to be attached to that weeks lessons)
 - Parents can upload homework
 - Homework can be downloaded from the teacher's view after it's been submitted
 - Include last week this week next week-- check materials and use the same "week starting on blabla" search for parents
 - Homework displayed in a table showing hte last two this one and next two.
 
+- Add ability to attach homework resource to a week + a course in the view also, so lesson can add it for each
+- ADD THIS FUNCTIONALITY TO PHONICS ALSO
+
 ## SM view - 20 hours
 
-- Student creation, edit, upload functionality
+- Student creation, edit functionality XXXXXXXXX scrapped
 - Create a view for sms to see all student details, and also link to the parent view of a student
-- Curriculum view
+- add a Curriculum view
 
 ## General changes - 30-40 hours? Lesson plans and tags could take a very long time or not that much.
 
 - A lot of documentation (5-8 hours work)
-- Student model needs sex, allergies, status(enum for kyuukai quit current)
-- All lessons need partner lessons to connect
-- Date of level ups in its own model
-- Date of level ups needs to be taken from SS -- there are dates there about when students moved level to level, need this information from Leroy and have to edit the students parser
-- Styling depending on the URL params eg hub.kids-up.app vision-up.app, these should use the dark mode functionality but take out border radius
-- Lesson plans need two versions and should have one set linked to the kidsup org and the others linked to everyone else (but possibly completely org dependent in the future). Whenever a guide is created it should create TWO of the guides and assign to both. Potentially look into stamping each document in a footer, look into if this can be done to individual document uploads.
-- SOLUTION: Create children of the same model associated by lesson_id, these children will be edited when the main is edited, They will contain the exact same content but be scoped to show based on org_id of the user.
-- ENUM for now for children so that more can be added later, for now only two footers are necessary, ku and vision. Defaults to vision version for all or ku for ku.
+- Student model needs status
 
-phone address email website
+- Date of level ups needs to be taken from SS -- there are dates there about when students moved level to level, need this information from Leroy and have to edit the students parser
 
 [x] Create enum for child lessons
 [x] Add helper to differentiate between footers
 [x] Add footers
 [x] Add footer method to file controller
-[x] file controller adds footers to all pdfs depending on
+[x] file controller adds footers to all pdfs depending on org
 [] Tests?
 
 - IP LOCKING
@@ -92,3 +86,18 @@ phone address email website
 - Added choose icon to edit student form
 - Added translations to edit student form
 - Added turbo stream for parents to choose their preferred icon
+
+# 21/01
+
+- Reverse order of seasonal site events for parents
+- Fixed database issues where phonics resources were not attached to a course
+- Set homework resources field in the database to also link to a course
+- Created homework controller to add ability to upload resources of homework to an english class
+- Make front end to attach it in the english class guides
+
+## UPDATED NOTES
+
+- Only parents cna sing up - remove sign up buttons
+- Uploading students we want CSV upload and template for uploading students
+- Make the address stuff all hyperlinks
+-
