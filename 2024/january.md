@@ -31,6 +31,9 @@
 
 ### Homework Page upload/download - 15 hours
 
+[x] Homework added to back-end
+[x] Homework views for teachers to add it to lessons added
+
 - Parents can seex and download homework for a lesson (homework needs to be attached to that weeks lessons)
 - Parents can upload homework
 - Homework can be downloaded from the teacher's view after it's been submitted
