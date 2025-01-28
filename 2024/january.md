@@ -22,10 +22,16 @@
 
 ### View for child - 20-30 hours
 
+[x] Level changes table added
+[x] Add backend stats to track progress
+[x] Add icon editing functionality
+[x]
+
 - Table created for each level change, includes student id, old level, new level, date of change
 - Certificate generation based on results (NOT IN THIS VERSION)
 - Requires backend stats to be added to track progress
 - Style according to figma / Alex's views (currently not finished with the child view as far as i've seen)
+-
 
 ### Homework Page upload/download - 15 hours
 
@@ -39,17 +45,18 @@
 
 ## SM view - 20 hours
 
-- Student creation, edit functionality XXXXXXXXX scrapped
-- Create a view for sms to see all student details, and also link to the parent view of a student
-- add a Curriculum view
+[x] Add curriculum view helper
+[x] Create a view for sms to see all student details
+[x] Style to alex's design spec
+[x] Add all buttons etc
 
 ## Student uploads / downloads
 
 [] SS forms can be uploaded
 [] SS forms need to be uploaded from a long time ago in order to date level ups (need to paste level ups in legacy upload version)
-[] Level up dates need to make a dummy test account or create a new level ups table
+[x] Level up dates need to make a dummy test account or create a new level ups table
 [] ss needs to be uploadable monthly
-[] Status to populate kyuukai
+[x] Status to populate kyuukai
 
 ## General changes - 30-40 hours? Lesson plans and tags could take a very long time or not that much.
 
@@ -116,6 +123,22 @@
 - fix turbo frame for icons, styling to come
 - write some parent tests
 
+# 24/01
+
+- Create separate level up table in the database
+- Go through SS data and work out what is necessary
+- Added status enum "quit kyuukai current" that iwll be updated
+- Added structure to upload just from SS sheets separately only for kids up
+- leroy will run a script to adjust the spreadsheet to something that is acceptable for the app
+
+# 28/01
+
+- Design parents search
+- Make SM links
+- styling added to sm view
+- Make teacher spy helper to see lessons for the day
+- styled modals for finding child / choosing an icon
+
 ## UPDATED NOTES
 
 - Only parents cna sing up - remove sign up buttons
@@ -123,17 +146,13 @@
 - Make the address stuff all hyperlinks
 - Tests can be locked
 - Search for resources
-- language switcher shouldnt interact with back as it can lock ian in
 - how do you want
 - sm parent invite should change based on compan vision-up
 - school rankings per level etc
 - parents show doesnt need email
 - Look into appending studentid to email invite to sign up? security concerns?
-
 - instead of start date we check first level check date etc? we need status
-
 - The hamburger nav should have animation slow slide rather than just pop out
-
 - tests remove level recommended level should be shorter update result shorter
 - should be a bakcground behind the top partshould just be fully opaque or have a bg color
 
@@ -156,3 +175,4 @@ teachers edit students delete
 remove student id showing to parents
 
 - If no kids for parent ---- have something saying click the man to add your kid
+- Look into mass emails for level check results
