@@ -31,7 +31,6 @@
 - Certificate generation based on results (NOT IN THIS VERSION)
 - Requires backend stats to be added to track progress
 - Style according to figma / Alex's views (currently not finished with the child view as far as i've seen)
--
 
 ### Homework Page upload/download - 15 hours
 
@@ -176,3 +175,33 @@ remove student id showing to parents
 
 - If no kids for parent ---- have something saying click the man to add your kid
 - Look into mass emails for level check results
+
+- TODO: Add name to student searches
+- TODO: Add gakunen to to the fields displayed by student searches
+- TODO: Male/fem to fields displayed by sudent searches
+
+- Searches parameters TODAY
+
+report function
+certificate
+ss csv
+multi ips
+
+notifications links to notifications/show and sends that notification ID, it should send the support request id and go to the support request
+
+notification send lacks input validation
+editing also removes image tags
+
+- take tracking off the wiki
+
+deleting homework resources gives a dead page instead of success from the OUTER
+
+remove references to classes
+make the popout box stuff stay inside the box with narrow frames (md lg etc)
+
+NO IP
+oi
+ueno
+kanamecho
+saginomiya has star
+togoshi has a star
