@@ -70,7 +70,7 @@
 
 - IP LOCKING
   [x] add functionality to lock by ip
-  [] Add ips for each school
+  [x] Add ips for each school
   [x] add ips to some schools to test
 - Dump seasonal school picture & date ????
 
