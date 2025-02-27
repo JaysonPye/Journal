@@ -178,8 +178,8 @@ remove student id showing to parents
 
 - TODO: Add name to student searches
 - TODO: Add gakunen to to the fields displayed by student searches
-- TODO: Male/fem to fields displayed by sudent searches
-
+- [x] Male/fem to fields displayed by sudent searches
+- AUTOMATICAL PASSWORD CHANGE REQUEST
 - Searches parameters TODAY
 
 report function
