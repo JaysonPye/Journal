@@ -11,3 +11,4 @@
 - Seasonal site messages from sms answered and changes added.
 - LMS has many translation errors, I went through and added all the changes.
 - Found the issue with notifications, it was an issue with how links are created and redirected to with multiple domains, this may need to be reworked entirely in the future if we start to have a lot of concurrent notifications being posted.
+- Deployed today's changes which includes translations and notifications bugfixes.
