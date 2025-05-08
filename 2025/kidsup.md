@@ -5,6 +5,13 @@
 - Personally, I want to sort out homework for LMS as well as go through the laundry list of changes that Luis needs, there are many small bugs from an admins perspective that make it tough to use.
 - I also want to diagnose the notifications issues, right now users can't really use the support system properly.
 
+### 05/07
+
+- Worked on new homework backend and removed some old messy homework_resources code.
+- I decided to make homework a separate section as the lesson clutter is already high, which means it can have a specialised view to make it easy to create / manage the homework for a course.
+- Looked into using flipper to manage elementary / kindy courses, it looks like I'd need to make those static buttons in the teacher's view conditional, and then flipper can be set up fairly easily.
+- Homework should hopefully be functioning and able to upload by end of Thursday.
+
 ### 05/02
 
 - Epipen test added
