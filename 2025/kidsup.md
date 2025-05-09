@@ -5,6 +5,13 @@
 - Personally, I want to sort out homework for LMS as well as go through the laundry list of changes that Luis needs, there are many small bugs from an admins perspective that make it tough to use.
 - I also want to diagnose the notifications issues, right now users can't really use the support system properly.
 
+### 05/08
+
+- Created tab for the homework uploads that has tabs and shows which weeks don't have homework assigned.
+- The actual uploads had some issues displaying properly, this is mostly done now though so I can have uplodas possible for Monday.
+- Looks like I need to print from three different sources for the spreadsheet requirements, which is possible and fine to do.
+- Checked over Leroy's spreadsheet for what I need.
+
 ### 05/07
 
 - Worked on new homework backend and removed some old messy homework_resources code.
