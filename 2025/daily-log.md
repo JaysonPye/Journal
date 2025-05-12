@@ -2,6 +2,42 @@
 
 ---
 
+## 2025-05-09 (Friday)
+- [] Morning exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Freelance Work / Client Search
+
+📝 Notes:
+Exercise: My back is officially ruined, not sure how it can still be so sore so this might be chair related, trying to fix my posture a little through the day.
+Dev work: Decided the best time to practice my new setup is learning new projects, so i'll be continuing that old odin project react course, might help with productivity on github.
+Kidsup: designing and implementing bulk billing procedures which is both interesting and kind of scary.
+
+## 2025-05-09 (Friday)
+- [x] Morning exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [] Japanese Study
+- [x] IT Self-Study
+- [x] Freelance Work / Client Search
+
+📝 Notes:
+- Japanese: Didn't have time to study much which bothers me.
+- Exercise: "Back is still ruined from rows, but went for a run!
+- Dev work: Been addicted to building up my linux environment lately, but it feels a bit like procrastination as that is taking over actual study, or is this also study?
+Also fixed up a few things on an old react site.
+
+## 2025-05-08 (Thursday)
+- [x] Morning exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Freelance Work / Client Search
+
+📝 Notes:
+Exercise: Pulled my back doing rows, hurts real bad.
+Kidsup: Built up all the homework views and had a longer meeting with Daniel and Leroy
+
 ## 2025-05-07 (Wednesday)
 
 - [] Morning exercise
