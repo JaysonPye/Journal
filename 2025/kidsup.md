@@ -2,8 +2,11 @@
 
 ## Backlog for May is as per the google doc
 
-- Personally, I want to sort out homework for LMS as well as go through the laundry list of changes that Luis needs, there are many small bugs from an admins perspective that make it tough to use.
-- I also want to diagnose the notifications issues, right now users can't really use the support system properly.
+### TLDR what's done lately
+- Homework sorted
+- Notifications fixed
+- Many failing tests fixed.
+- Bulk billing spreadsheet done
 
 ### 05/13
 
