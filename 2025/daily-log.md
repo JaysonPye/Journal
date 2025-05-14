@@ -2,7 +2,18 @@
 
 ---
 
-## 2025-05-09 (Friday)
+## 2025-05-13 (Tuesday)
+- [x] Morning exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [] Japanese Study
+- [x] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- Exercise: Back is feeling a bit better which is good, went for a run.
+- Study: Decided I should work through Odin stuff for react and js, I feel like my actual just programming skills have worsened, in terms of simple leetcode style problem solving. I spend most of the time figuring out routes and front end stuff lately.
+
+## 2025-05-12 (Monday)
 - [] Morning exercise
 - [x] Kids Up IT Work Block (10am-2pm)
 - [x] Japanese Study

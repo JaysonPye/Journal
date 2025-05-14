@@ -5,6 +5,17 @@
 - Personally, I want to sort out homework for LMS as well as go through the laundry list of changes that Luis needs, there are many small bugs from an admins perspective that make it tough to use.
 - I also want to diagnose the notifications issues, right now users can't really use the support system properly.
 
+### 05/13
+
+- Added levels to homework
+- Fixed old tests and key issues with the LMS that have persisted for a while.
+- Created homework model/factory tests and it should be ready to deploy now.
+- Still need to create some kind of teacher view that daniel asked for? Not sure how this would look but I guess I will just mock up my own.
+
+### 05/12
+
+- Worked on Leroy's spreadsheet for bulk billing stuff, managed to finish this today but it took most of my time as I had to keep tinkering with it.
+
 ### 05/08
 
 - Created tab for the homework uploads that has tabs and shows which weeks don't have homework assigned.
