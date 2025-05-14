@@ -7,7 +7,15 @@
 - Notifications fixed
 - Many failing tests fixed.
 - Bulk billing spreadsheet done
+- Some security updates added
 
+### 05/14
+
+- Deployed homework (for uploads, still no teacher view)
+- Added some security updates
+- MTG with Leroy and Daniel to troubleshoot some payment issues and go over some timelines.
+- Fixed the calendar on the LMS app to include space for Kindy speech lessons.
+- Parties will just have resources - but I want to include adding PNGs over the cards for seasonals/parties, with a fallback svg in case they don't add one.
 ### 05/13
 
 - Added levels to homework
