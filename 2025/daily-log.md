@@ -2,6 +2,29 @@
 
 ---
 
+## 2025/05-14 (Wednesday)
+- [x] Morning exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- []x IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- Exercise: Back is actually almost normal, did a few dumbell exercises and stretched out
+- Japanese: Still not consistently doing anki, maybe a hard goal needs to happen by 10am cuz its hard after work
+- Family: Had some really fun family time, and decided id just start waking up earlier since the little one has been jumping on me from 5am while i try to sleep in.
+
+## 2025/05-14 (Wednesday)
+- [] Morning exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- Exercise: Back felt a fair bit better so taking a rest day
+- Motivation: Not a great day for achievements, I started working on a few things and got distracted, decided to take a walk and ended up loitering around for a fair while, had some family time after and never got back into it.
+
 ## 2025-05-13 (Tuesday)
 - [x] Morning exercise
 - [x] Kids Up IT Work Block (10am-2pm)
