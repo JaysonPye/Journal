@@ -1,7 +1,17 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+## 2025/05-15 (Thursday)
+- [x] Morning exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- []x IT Self-Study
+- [] Freelance Work / Client Search
 
+📝 Notes:
+- Exercise: Almost fixed my back, keen to work out tomorrow.
+- IT related: Created party system, worked on new homework teacher's view.
+- Life: Saw a friend from Australia today, it was nice to walk around with someone and talk about Aussie related stuff.
 ## 2025/05-14 (Wednesday)
 - [x] Morning exercise
 - [x] Kids Up IT Work Block (10am-2pm)
