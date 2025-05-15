@@ -9,6 +9,12 @@
 - Bulk billing spreadsheet done
 - Some security updates added
 
+### 05/15
+- Generated list of links for Leroy to use to test science fair
+- Worked on party implementation - took a pause on it to think over how we want to do the linking to orgs etc, waiting for daniels feedback on that
+- Answered and ticked off some old support tickets that needed small changes done
+- Worked on the homework index, some designs to add before I deploy it but I might get it finished by end of today, maybe early tomorrow.
+
 ### 05/14
 
 - Deployed homework (for uploads, still no teacher view)
