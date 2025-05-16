@@ -10,6 +10,16 @@
 - Some security updates added
 
 ### 05/15
+- Created homework view for teachers with styling
+- Fixed some visual bugs with parents homework views, it used to have a scrollbar created, turned out to be an issue with tailwind, needed to nest a div under main with dimensions
+- Created homework tests for sms
+- Reorganised homework admin view so that it is more reusable, separated it all into partials.
+- Added homework to the SMs curriculum links
+- Added my own homework svg for now
+- Deployed everything to live so that we can start adding homework and testing
+- Looked into leroy's payment issues a little.
+
+### 05/15
 - Generated list of links for Leroy to use to test science fair
 - Worked on party implementation - took a pause on it to think over how we want to do the linking to orgs etc, waiting for daniels feedback on that
 - Answered and ticked off some old support tickets that needed small changes done
