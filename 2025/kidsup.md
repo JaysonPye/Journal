@@ -7,9 +7,15 @@
 - Notifications fixed
 - Many failing tests fixed.
 - Bulk billing spreadsheet done
-- Some security updates added
+- Some security updates added - Still many more updates to do with both apps. probably have a whole day of playing with this.
 
-### 05/15
+### 05/19
+
+- plan::::: parties -- party icons changed to png uploads if available fallback if not, this should be globalish so I dont have to duplicate it w/ seasonal, so concern / helper methods.
+- Events if i finish so that the section is tidied.
+- Parties need org based access, so a policy and has many through plans maybe? or just connected to plans since that has an orgid? need to research this. 
+
+### 05/16
 - Created homework view for teachers with styling
 - Fixed some visual bugs with parents homework views, it used to have a scrollbar created, turned out to be an issue with tailwind, needed to nest a div under main with dimensions
 - Created homework tests for sms
