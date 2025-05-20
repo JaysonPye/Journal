@@ -1,6 +1,35 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+
+
+## 2025-05-20 (Tuesday)
+
+- [x] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [] Japanese Study
+- [x] IT Self-Study
+- [] Freelance Work / Client Search
+
+- Need to rework how I am doing my schedule, maybe I might move the part time block to the afternoon, it's easier to focus hard when it is paid work so 
+I think if i can move my study related things to the morning when I am the most motivated that might fit better.
+- For today I am doing KU work through the usual 10-2 block.
+- Managed to do some good IT study and I am having better discipline with doing TDD development every time rather than taking shortcuts here and there.
+There is surely a balance between doing things the 'most optimal way' and speed so I am trying to find that balance, but the end result must be a good product.
+
+📝 Notes:
+## 2025-05-19 (Monday)
+
+- [] Morning exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [] Japanese Study
+- [x] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- I am terrible at keeping a Journal.
+- I got a lot of study in and ended up spending most of my spare time doing Odin project stuff and Kids up work
+- I was in the zone a little bit working through some kids up LMS changes so I just worked way overtime doing it.
 ## 2025/05-15 (Thursday)
 - [x] Morning exercise
 - [x] Kids Up IT Work Block (10am-2pm)
