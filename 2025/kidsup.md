@@ -8,12 +8,22 @@
 - Many failing tests fixed.
 - Bulk billing spreadsheet done
 - Some security updates added - Still many more updates to do with both apps. probably have a whole day of playing with this.
+- Parties added
+- Party/Seasonals can add an icon or default to the all_levels svg (can tell me if u want another default)
+
+### 05/20
+
+- Attempt to find Leroy's bugs with seasonal payments. (this may take hours)
+- Make a branch on vision and do the organisation tie ups from party/events there so that I can merge it when i get the ok.
+- TODO: Remove homework button for kindy kids in students/show
+- TODO: Add svgs for homework/tests/seasonal/parties when I get them.
 
 ### 05/19
 
-- plan::::: parties -- party icons changed to png uploads if available fallback if not, this should be globalish so I dont have to duplicate it w/ seasonal, so concern / helper methods.
-- Events if i finish so that the section is tidied.
-- Parties need org based access, so a policy and has many through plans maybe? or just connected to plans since that has an orgid? need to research this. 
+- parties -- party icons changed to png uploads if available fallback if not, this should be globalish so I dont have to duplicate it w/ seasonal, so concern / helper methods.
+- Events started, settling for a second on this because I need to work out how to do visibility.
+- Parties finished and functional
+- Cleaned up card code and moved some things to helper methods.
 
 ### 05/16
 - Created homework view for teachers with styling
