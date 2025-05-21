@@ -10,17 +10,25 @@
 - Some security updates added - Still many more updates to do with both apps. probably have a whole day of playing with this.
 - Parties added
 - Party/Seasonals can add an icon or default to the all_levels svg (can tell me if u want another default)
+- Payment bug finding mission
+
+### 05/21   
+
+- TODO: Remove homework button for kindy kids in students/show
+- Found Leroy's bug
+- "confirm in ss" runs an edit/save on invoices which triggers calc_cost again.
+- Need to try two options. 1. add confirmed to the database and have it only run save when that isnt on or 2. 
+have it not run calc_cost if the method is from ss confirm.
 
 ### 05/20
 
-- Attempt to find Leroy's bugs with seasonal payments. (this may take hours)
-- Make a branch on vision and do the organisation tie ups from party/events there so that I can merge it when i get the ok.
-- TODO: Remove homework button for kindy kids in students/show
-- TODO: Add svgs for homework/tests/seasonal/parties when I get them.
+- Attempted to find Leroy's bugs with payment system to no avail, I asked for extra information.
+- Made a branch on vision and do the organisation tie ups from party/events there so that I can merge it when i get the ok.
+- Made a list of svg requests for alex.
 
 ### 05/19
 
-- parties -- party icons changed to png uploads if available fallback if not, this should be globalish so I dont have to duplicate it w/ seasonal, so concern / helper methods.
+- parties -- party icons changed to png uploads if available fallback if not, this is in a helper so that I can use it for seasonals/events/parties
 - Events started, settling for a second on this because I need to work out how to do visibility.
 - Parties finished and functional
 - Cleaned up card code and moved some things to helper methods.
