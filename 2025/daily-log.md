@@ -1,7 +1,18 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+## 2025-05-21 (Wednesday)
 
+- [] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [] Japanese Study
+- [x] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- Kids up IT: Getting a lot of the things that have been on the menu to fix for 6 months done which feels fantastic.
+- Incredibly sick today, woke up with a searing headache at 3am and a fever, just pushing through to get basic things done.
+- Exercise: From Thursday this will become the new priority to make sure I can get it done daily.
 
 ## 2025-05-20 (Tuesday)
 
@@ -11,13 +22,14 @@
 - [x] IT Self-Study
 - [] Freelance Work / Client Search
 
+📝 Notes:
 - Need to rework how I am doing my schedule, maybe I might move the part time block to the afternoon, it's easier to focus hard when it is paid work so 
 I think if i can move my study related things to the morning when I am the most motivated that might fit better.
 - For today I am doing KU work through the usual 10-2 block.
 - Managed to do some good IT study and I am having better discipline with doing TDD development every time rather than taking shortcuts here and there.
 There is surely a balance between doing things the 'most optimal way' and speed so I am trying to find that balance, but the end result must be a good product.
 
-📝 Notes:
+
 ## 2025-05-19 (Monday)
 
 - [] Morning exercise
