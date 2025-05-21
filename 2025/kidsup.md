@@ -17,8 +17,9 @@
 - TODO: Remove homework button for kindy kids in students/show
 - Found Leroy's bug
 - "confirm in ss" runs an edit/save on invoices which triggers calc_cost again.
-- Need to try two options. 1. add confirmed to the database and have it only run save when that isnt on or 2. 
+- Needed to try two options. 1. add confirmed to the database and have it only run save when that isnt on or 2. 
 have it not run calc_cost if the method is from ss confirm.
+- Chose to fix up what was constructed before and just have unless in_ss tagged in a few places.
 
 ### 05/20
 
