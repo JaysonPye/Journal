@@ -1,6 +1,19 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+
+## 2025-05-22 (Thursday)
+
+- [] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Freelance Work / Client Search
+
+📝 Notes:
+- Kidsup IT: managed to fix a few big bugs today that were sitting there needing to be done for a while now.
+- Study: Got some practice in with nvim stuff, but actually for KidsUP work I've been using vscode and I kind of feel like as I get better at it it might be better for me. We will see as i continue to practice this a little bit.
+- Exercise: As I said this will become a priority, I decided that this is the one non excusable thing I need to do every single day, before I moved to Japan fitness was my lifestyle really, my hobby. As I lived far from a gym here and corona happened I kind of fell off the wagon and it's at a point now where I kind of hate myself for it, the journey to healing that starts with making sure I work out daily and can get myself back into that sort of culture.
 ## 2025-05-21 (Wednesday)
 
 - [] Exercise
