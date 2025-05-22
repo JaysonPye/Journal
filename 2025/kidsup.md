@@ -11,10 +11,16 @@
 - Parties added
 - Party/Seasonals can add an icon or default to the all_levels svg (can tell me if u want another default)
 - Payment bug finding mission
+- Found Leroy's payment issues and made changes so that invoices can no longer be edited ever after confirmation
+
+### 05/21 
+
+- Reviewed some Aussie presentation for Luis.
+- Read over notes from todo list to try to give some accurate timeframes where possible.
+- Removed h/w button for kindy in students/show
 
 ### 05/21   
 
-- TODO: Remove homework button for kindy kids in students/show
 - Found Leroy's bug
 - "confirm in ss" runs an edit/save on invoices which triggers calc_cost again.
 - Needed to try two options. 1. add confirmed to the database and have it only run save when that isnt on or 2. 
