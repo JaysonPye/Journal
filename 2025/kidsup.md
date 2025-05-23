@@ -13,11 +13,13 @@
 - Payment bug finding mission
 - Found Leroy's payment issues and made changes so that invoices can no longer be edited ever after confirmation
 
-### 05/21 
+### 05/22
 
 - Reviewed some Aussie presentation for Luis.
 - Read over notes from todo list to try to give some accurate timeframes where possible.
 - Removed h/w button for kindy in students/show
+- Fixed four different long standing bugs that have been sitting in the vision up system
+- TODO: Notifications rework, it's saving an entire url which doesn't really work. It should after the domain since we are using multi domains now, need to adjust all existing ones too.
 
 ### 05/21   
 

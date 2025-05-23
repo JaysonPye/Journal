@@ -2,6 +2,19 @@
 
 ---
 
+
+## 2025-05-23 (Friday)
+
+- [x] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [] Japanese Study
+- [x] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- Kidsup IT: Made time estimates for most tasks that I could.
+- Exercise: Managed to get in a really good workout, trying to be consistent putting this at the utmost priority and it's working.
+- General: I think I can be much more productive, I keep overwhelming myself with how many tasks I want to complete, need to try this new method of less pressure.
 ## 2025-05-22 (Thursday)
 
 - [] Exercise
