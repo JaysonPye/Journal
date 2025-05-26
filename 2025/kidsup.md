@@ -13,6 +13,17 @@
 - Payment bug finding mission
 - Found Leroy's payment issues and made changes so that invoices can no longer be edited ever after confirmation
 
+### 05/24
+
+- Fixed user creation, user creation should use the organizations scope so that an admin can create for all orgs, orgadmin for their org etc.
+Previously if you created an sm or an org admin I would need to manually assign an org in the db.
+
+### 05/23
+
+- Went through github issues and added three separate bug fixes
+- Did summer event things for Leroy, deleting some old stuff from databases, running checks on if they're working as they should
+- Documentation updates
+
 ### 05/22
 
 - Reviewed some Aussie presentation for Luis.
