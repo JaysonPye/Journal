@@ -4,7 +4,7 @@
 
 ### TLDR what's done lately
 - Homework sorted
-- Notifications fixed
+- Notifications fixed (found more bugs here)
 - Many failing tests fixed.
 - Bulk billing spreadsheet done
 - Some security updates added - Still many more updates to do with both apps. probably have a whole day of playing with this.
@@ -12,6 +12,8 @@
 - Party/Seasonals can add an icon or default to the all_levels svg (can tell me if u want another default)
 - Payment bug finding mission
 - Found Leroy's payment issues and made changes so that invoices can no longer be edited ever after confirmation
+- Users assign to org now
+- Removed classes from views (I believe)
 
 ### 05/24
 
@@ -19,13 +21,14 @@
 Previously if you created an sm or an org admin I would need to manually assign an org in the db.
 - User creation changes required way more than foreseen, since all different forms needed to pass around org collection as locals in order to avoid using instanced variables in the partials.
 - tests re written to ensure org allocation
+- Waiting til deploy as this isn't necessary.
 
 ### 05/23
 
 - Went through github issues and added three separate bug fixes
 - Did summer event things for Leroy, deleting some old stuff from databases, running checks on if they're working as they should
 - Documentation updates
-
+- Changed sessions on the seasonal app to timeout after 4 hours.
 ### 05/22
 
 - Reviewed some Aussie presentation for Luis.
