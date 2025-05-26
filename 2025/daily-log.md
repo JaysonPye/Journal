@@ -1,7 +1,18 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+## 2025-05-26 (Monday)
 
+- [] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [] Japanese Study
+- [] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- Kidsup IT: I'm trying my best to fix things the right way with updated tests and analyzing the problem properly before adding quick fixes, as a result I think I'm getting better at recognizing what the correct approach is in a quicker manner.
+- Exercise: Run after kidsup work block.
+- General: Tried setting just a few tasks, and decided I am not going to have a casual drink at night for a little while, I think I can work more from 8-midnight here and there, but I never do when I have a drink, last night I sat there fixing some hobby stuff from 8pm-1am and I felt so good about it.
 
 ## 2025-05-23 (Friday)
 
