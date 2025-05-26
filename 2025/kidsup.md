@@ -17,6 +17,8 @@
 
 - Fixed user creation, user creation should use the organizations scope so that an admin can create for all orgs, orgadmin for their org etc.
 Previously if you created an sm or an org admin I would need to manually assign an org in the db.
+- User creation changes required way more than foreseen, since all different forms needed to pass around org collection as locals in order to avoid using instanced variables in the partials.
+- tests re written to ensure org allocation
 
 ### 05/23
 
