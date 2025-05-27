@@ -1,6 +1,17 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+
+## 2025-05-27 (Tuesday)
+- [x] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [] Japanese Study
+- [] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- General: Managed to do daily tasks, child is sick so a lot of things were missed today which I am hoping to catch up on.
+
 ## 2025-05-26 (Monday)
 
 - [] Exercise

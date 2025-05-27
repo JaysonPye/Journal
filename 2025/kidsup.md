@@ -15,7 +15,21 @@
 - Users assign to org now
 - Removed classes from views (I believe)
 
-### 05/24
+
+## Dump of things that need to change in seasonal
+
+- make spt/outdoor mix so that specials can include hat things
+- Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
+- Stats: The base page that shows event stats for admins is not in the stats page, it is essentially gone after the event closes, basically we want a summaries page that shows taht per event, might currently exist in some form under category: bookings
+
+### 05/27
+
+- MTG with Leroy about seasonal issues
+- Troubleshooted naming things with seasonal
+- Decided on displaying the actual start and end dates on seasonal views for parents, afternoon is hard coded since it needs to be a setting different from special afternoons.
+- Reviewed the astro site and practiced syntax etc to make wiki changes
+
+### 05/26
 
 - Fixed user creation, user creation should use the organizations scope so that an admin can create for all orgs, orgadmin for their org etc.
 Previously if you created an sm or an org admin I would need to manually assign an org in the db.
