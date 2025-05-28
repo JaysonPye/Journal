@@ -22,6 +22,12 @@
 - Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
 - Stats: The base page that shows event stats for admins is not in the stats page, it is essentially gone after the event closes, basically we want a summaries page that shows taht per event, might currently exist in some form under category: bookings
 
+### 05/28
+
+- Researched stats page stuff, potentially add this as soon as I can figure it out.
+- Notifications needed a rework so I went through it the other night and today I tested and implemented it.
+- Added a few things in the todo list and checked them off so it can be more clear what's been done for those viewing KU charts.
+
 ### 05/27
 
 - MTG with Leroy about seasonal issues

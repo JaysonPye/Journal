@@ -1,6 +1,17 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+## 2025-05-27 (Wednesday)
+- [x] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- IT work: Waiting on results from a few mtgs i need to have but they were rescheduled to Thursday, as a result I'll probably chill out a little on Kids up stuff today and work overtime Thurs/Fri to finish.
+- Health: Trying to eat healthier, GYM still isnt open near me so I'm exercising at home, it's a bit harder to get into a real zone at home so I am trying to adjust my diet too.
+- My kid felt better today so he's at day care and I can get things done.
 
 ## 2025-05-27 (Tuesday)
 - [x] Exercise
