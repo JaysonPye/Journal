@@ -14,6 +14,7 @@
 - Found Leroy's payment issues and made changes so that invoices can no longer be edited ever after confirmation
 - Users assign to org now
 - Removed classes from views (I believe)
+- Bug with extensions found & fixed for Leroy
 
 
 ## Dump of things that need to change in seasonal
@@ -21,6 +22,17 @@
 - make spt/outdoor mix so that specials can include hat things
 - Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
 - Stats: The base page that shows event stats for admins is not in the stats page, it is essentially gone after the event closes, basically we want a summaries page that shows taht per event, might currently exist in some form under category: bookings
+
+### 05/30
+
+- Extension payment issue found, this was overcharging parents since it's inception and went unnoticed (minimal amounts)
+- Essentially extension was added as k_extension if kindy otherwise extension, but when the DB ran the look up it would find k_extension and accept it as truthy if it appeared first in the database, leading to parents adding the more expensive extension to special days.
+- Add org_lessons to materials so that we can attach lessons to an org, not quite ready for PR today, will be done monday.
+
+### 05/29
+- MTG with Daniel to go over changes
+- MTG with Leroy to discuss some extension payment issue
+- Troubleshooting extension issue, didn't manage to finish this
 
 ### 05/28
 
