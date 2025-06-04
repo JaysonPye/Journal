@@ -15,6 +15,8 @@
 - Users assign to org now
 - Removed classes from views (I believe)
 - Bug with extensions found & fixed for Leroy
+- Photo footer autos to on for parties
+- 
 
 
 ## Dump of things that need to change in seasonal
@@ -22,6 +24,25 @@
 - make spt/outdoor mix so that specials can include hat things
 - Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
 - Stats: The base page that shows event stats for admins is not in the stats page, it is essentially gone after the event closes, basically we want a summaries page that shows taht per event, might currently exist in some form under category: bookings
+
+### 06/4
+
+- Added new branch for report cards, added gruff gem to generate a new spider chart w/o the help of JS.
+- Mapped out how I'll generate pdfs, take in a collection of students generate one per student and concat it, keeps things DRY.
+- Added auto enabling photo service on the seasonal site, for parties and not seasonals. Sent a video for Leroy to get confirmation before pushing.
+
+### 06/3
+
+- double Enchou removed from seasonal site
+- Went to Minamimachida to troubleshoot a well known bug in the hub
+- MM's leader was almost an hour late and he had the key so I kinda wasted a lot of the day
+- Responded to support requests
+
+### 06/2
+
+- Add insertlink function to JS files for .jp pages
+- organisation_lessons added to hub, similar to course_lessons but additional logic also added, added via a concern to keep the logic separate
+- tests written for org lessons and seasonals
 
 ### 05/30
 
