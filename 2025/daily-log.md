@@ -1,6 +1,21 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+
+## 2025/06-04 (Wednesday)
+
+- [x] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Freelance Work / Client Search
+
+📝 Notes:
+- Using city gym until my favorite one reopens, at least I can get in the zone there.
+- Didn't do Journal for a week so taht isn't great.
+- Went into Kidsup yesterday to troubleshoot some things with IPADs, was nice to see people again.
+- Need to figure out a JP study thing since I probably need fluency to get a nice job at this rate.
+
 ## 2025-05-27 (Wednesday)
 - [x] Exercise
 - [x] Kids Up IT Work Block (10am-2pm)
