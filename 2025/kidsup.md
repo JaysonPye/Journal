@@ -16,7 +16,7 @@
 - Removed classes from views (I believe)
 - Bug with extensions found & fixed for Leroy
 - Photo footer autos to on for parties
-- 
+- Fixed jp site text stuff and privacy policy
 
 
 ## Dump of things that need to change in seasonal
@@ -25,11 +25,21 @@
 - Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
 - Stats: The base page that shows event stats for admins is not in the stats page, it is essentially gone after the event closes, basically we want a summaries page that shows taht per event, might currently exist in some form under category: bookings
 
+### 06/5
+
+- Pull the react app and change the privacy policy, this was super annoying since it was all in pieces, so instead I just made it a text dump from a static value so we can edit that whenever.
+- Pushed the automatic photo on for parties to production.
+- Worked a little less today as I accrued a bunch of overtime yesterday, made leroy aware of it.
+
+
 ### 06/4
 
 - Added new branch for report cards, added gruff gem to generate a new spider chart w/o the help of JS.
 - Mapped out how I'll generate pdfs, take in a collection of students generate one per student and concat it, keeps things DRY.
 - Added auto enabling photo service on the seasonal site, for parties and not seasonals. Sent a video for Leroy to get confirmation before pushing.
+- Added call to action phone buttons to jp site
+- Went through the JP spreadsheet and adjusted the site where it was needed
+
 
 ### 06/3
 

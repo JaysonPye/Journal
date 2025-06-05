@@ -2,6 +2,17 @@
 
 ---
 
+## 2025-06-05 (Thursday)
+- [x] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- A lot of things to do lately but I needed a bit of a break, heading to Shizuoka today to see a friend for a couple of days, he owns a bar so i'll work in that for a couple of nights.
+- Going to use this as a nice chance to reset, as I'm not happy with my production lately.
+
 ## 2025/06-04 (Wednesday)
 
 - [x] Exercise
