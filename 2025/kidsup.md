@@ -25,6 +25,18 @@
 - Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
 - Stats: The base page that shows event stats for admins is not in the stats page, it is essentially gone after the event closes, basically we want a summaries page that shows taht per event, might currently exist in some form under category: bookings
 
+### 06/06
+
+- Another privacy policy on the JP had to be changed so I did that one.
+- All of a sudden the system spec tests in the hub were running at around 1/20 speed so I had to spend a long time troubleshooting this.
+- Changed the timing that we show seasonals to 3 months before rather than 2 to account for summer school.
+
+### 06/5
+
+- Changed a lot of other things for JP site
+- Did research for Gruff, turns out it won't be as useful as we though so i'll be using something else.
+- New idea is the load a chromium instance and generate the charts.js to be thrown into a pdf, that way I can reuse everything currently being used, this would make the reports take a while with 50~ kids printed onto one pdf but it might be the best option for actually producing what they want.
+
 ### 06/5
 
 - Pull the react app and change the privacy policy, this was super annoying since it was all in pieces, so instead I just made it a text dump from a static value so we can edit that whenever.
