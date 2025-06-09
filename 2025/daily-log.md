@@ -2,6 +2,18 @@
 
 ---
 
+## 2025-06-09 (Monday)
+- [x] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- Went for a short run
+- Mostly troubleshooting again for KU work, I feel like 4 hours a day is not a lot of time to work on big things, I really want to just work 8 hours then not work the next, but when I tried it I got so many messages the next day and ended up basically working anyway.
+- Rained so I needed to do drop/pick for my kid and do a few house related things, thus my study suffered.
+
 ## 2025-06-05 (Thursday)
 - [x] Exercise
 - [x] Kids Up IT Work Block (10am-2pm)
