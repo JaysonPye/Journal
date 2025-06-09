@@ -30,6 +30,7 @@
 - Another privacy policy on the JP had to be changed so I did that one.
 - All of a sudden the system spec tests in the hub were running at around 1/20 speed so I had to spend a long time troubleshooting this.
 - Changed the timing that we show seasonals to 3 months before rather than 2 to account for summer school.
+- Looked through SSL stuff related to JP site, noone seemed to know how where we got the certificate from so I ran whois curl -I and dig to investigate, found out how we do it and refreshed it.
 
 ### 06/5
 
