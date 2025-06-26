@@ -2,6 +2,17 @@
 
 ---
 
+## 2025-06-26 (Thursday)
+- [x] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Freelance Work / Client Search
+
+📝 Notes:
+- Took a journalling break while I was getting some things in order. I am doing very very well recently, signed up to a gym and have gone every day for two weeks and I feel amazing about it.
+- Plan to add small things on to try to get to a point where my habits are great.
+
 ## 2025-06-09 (Monday)
 - [x] Exercise
 - [x] Kids Up IT Work Block (10am-2pm)
