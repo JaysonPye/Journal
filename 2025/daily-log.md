@@ -2,6 +2,23 @@
 
 ---
 
+
+## 2025/07-06 (Monday)
+- [x] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [] Japanese Study
+- [] IT Self-Study
+- [x] Freelance Work / Client Search
+
+📝 Notes:
+- Another break for journalling as I was tracking things in few different places and kept forgetting here.
+- Will endeavor to continue in the long term it will be great to see my original thoughts and progress
+- Got a lot of work done today, started Bar Blue's website initial designs and setup with tailwind v4
+- Exercise has been going great, I feel so motivated hitting the gym each morning, I can activate my body in a way I couldn't a few weeks ago.
+- I aim to keep doing gym 5+ times a week for the forseeable future.
+- Had some job inquiries recently, but I am re-thinking if I want to work on-site for the rest of my life, hybrid work has been a game changer for my mental well-being
+- I did however take a Japanese interview and realised I need to work on this, I can't really speak technically at all in Japanese and that's a horrible hole to have in the IT field.
+
 ## 2025-06-26 (Thursday)
 - [x] Exercise
 - [x] Kids Up IT Work Block (10am-2pm)

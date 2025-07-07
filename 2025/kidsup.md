@@ -18,12 +18,21 @@
 - Photo footer autos to on for parties
 - Fixed jp site text stuff and privacy policy
 - PDF generation for report cards, this was super annoying cuz I had to spin it up in headless chrome and copy the base64 image out.
+- Report cards batches - headless issues with sigterm kill
+- policies
 
 ## Dump of things that need to change in seasonal
 
 - make spt/outdoor mix so that specials can include hat things
 - Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
 - Stats: The base page that shows event stats for admins is not in the stats page, it is essentially gone after the event closes, basically we want a summaries page that shows taht per event, might currently exist in some form under category: bookings
+
+### 07/07
+
+- Another break from every day since I'm tracking Kidsup progress with the spreadsheets etc
+- Added privacy policy tests
+- Added privacy policy caching stuff for recent accepted
+- Added a gem for using markdown in the site so that new policies can be added later easily.
 
 ### 06/26
 
