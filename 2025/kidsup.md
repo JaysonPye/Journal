@@ -27,7 +27,24 @@
 - Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
 - Stats: The base page that shows event stats for admins is not in the stats page, it is essentially gone after the event closes, basically we want a summaries page that shows taht per event, might currently exist in some form under category: bookings
 
-##
+# LEROY MTG
+
+[x] Remove the first seasonal button and have it auto to yes
+[x] set first seasonal button text to first seasonal rather than hajimetenogosanka
+[x] set their first seasonal status under allergies so we know which is which
+
+[x] FIX MERGING INVOICES --- IN_SS TRUE DOESNT LET YOU RECALC AN INVOICE
+[x] MERGE CALL NEEDS TO BY PASS IN_SS true before action
+[] THUMBNAIL when link happens sucks, headers needa change ot havei t auto to a good one
+
+- lightly map out adding online course to vision up
+- students have attendance days in db - they need to be able to set absent and see potential make up lessons
+- provide zoom links based on the planned lessons
+- radio is just links to vimeo static page stays forever
+- Homework teachers upload for students
+- students upload finished homework
+- teachers then mark and return homework
+- Trials 
 
 ### Current merch plan
 
