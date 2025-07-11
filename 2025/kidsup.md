@@ -27,6 +27,29 @@
 - Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
 - Stats: The base page that shows event stats for admins is not in the stats page, it is essentially gone after the event closes, basically we want a summaries page that shows taht per event, might currently exist in some form under category: bookings
 
+##
+
+### Current merch plan
+
+- Merch needs adding to the site and the front end view needs to feel as if a merch item is a timeslot, obviously without the timeslot behavior, but it should be added to invoices.
+
+- Current thoughts are that I will build this out in a branch and test thoroughly to find any weird behaviors, the seasonal app is a bit convoluted so there are often things that get ruined when I do something like this.
+- merch_items will have --event_id, -name, -cost, -stock, jsonb of metadata (not sure what yet, descriptions etc.) it'll have a FK with events.
+- registrations supports polymorphic associations, so registerable type will be a MerchItem.
+- the invoices model aggregates registrations so I'll add merch items to it.
+
+ #### Relationships
+- event has_many merch items
+- child has_many registrations and merch items through registrations
+- Merch item belongs to event, has many registrations
+
+#### Front end
+- I need to track down how this will appear in stats
+- Stock tracking for management
+- Ability to close sales just like timeslots has
+- Duplicate front end views so that it has it's own card (a muted pink? daniel suggested)
+- Need to check the spreadsheet for bulk billing to ensure its behavior doesn't change w/ this.
+
 ### 07/07
 
 - Another break from every day since I'm tracking Kidsup progress with the spreadsheets etc
