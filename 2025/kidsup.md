@@ -21,11 +21,13 @@
 - Report cards batches - headless issues with sigterm kill
 - policies
 
+
 ## Dump of things that need to change in seasonal
 
 - make spt/outdoor mix so that specials can include hat things
 - Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
 - Stats: The base page that shows event stats for admins is not in the stats page, it is essentially gone after the event closes, basically we want a summaries page that shows taht per event, might currently exist in some form under category: bookings
+
 
 # LEROY MTG
 
@@ -67,6 +69,14 @@
 - Duplicate front end views so that it has it's own card (a muted pink? daniel suggested)
 - Need to check the spreadsheet for bulk billing to ensure its behavior doesn't change w/ this.
 
+### 07/15
+
+- Mapped out possibilities of adding the online course to the vision-up app
+- Tests, migrations, models created for the merchandising.
+### 07/14
+
+- Fixed issue that Abe-san was having
+- Created plan to implement merchandising to the seasonal app
 ### 07/07
 
 - Another break from every day since I'm tracking Kidsup progress with the spreadsheets etc
