@@ -3,6 +3,19 @@
 ---
 
 
+## 2025/07-15 (Tuesday)
+- [x] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- Had an interesting job interview, unfortunately the commute is a little bit too long so it won't work out
+- Gym has been fantastic, I'm eating about 1800 calories a day and losing a lot of the weight gained over the last year.
+- Freelance has stagnated in terms of using apps etc, I need to find a better way to engage clients.
+- Creating a website currently for a bar in Shizuoka, it's good to flex my designer abilities sometimes, doing everything from scratch instead of webpacks is also good for flexing some syntax muscles, and for practicing tailwing v4.
+
 ## 2025/07-06 (Monday)
 - [x] Exercise
 - [x] Kids Up IT Work Block (10am-2pm)
