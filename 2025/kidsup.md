@@ -2,24 +2,6 @@
 
 ## Backlog for May is as per the google doc
 
-### TLDR what's done lately
-- Homework sorted
-- Notifications fixed (found more bugs here)
-- Many failing tests fixed.
-- Bulk billing spreadsheet done
-- Some security updates added - Still many more updates to do with both apps. probably have a whole day of playing with this.
-- Parties added
-- Party/Seasonals can add an icon or default to the all_levels svg (can tell me if u want another default)
-- Payment bug finding mission
-- Found Leroy's payment issues and made changes so that invoices can no longer be edited ever after confirmation
-- Users assign to org now
-- Removed classes from views (I believe)
-- Bug with extensions found & fixed for Leroy
-- Photo footer autos to on for parties
-- Fixed jp site text stuff and privacy policy
-- PDF generation for report cards, this was super annoying cuz I had to spin it up in headless chrome and copy the base64 image out.
-- Report cards batches - headless issues with sigterm kill
-- policies
 
 
 ## Dump of things that need to change in seasonal
@@ -31,12 +13,6 @@
 
 # LEROY MTG
 
-[x] Remove the first seasonal button and have it auto to yes
-[x] set first seasonal button text to first seasonal rather than hajimetenogosanka
-[x] set their first seasonal status under allergies so we know which is which
-
-[x] FIX MERGING INVOICES --- IN_SS TRUE DOESNT LET YOU RECALC AN INVOICE
-[x] MERGE CALL NEEDS TO BY PASS IN_SS true before action
 [] THUMBNAIL when link happens sucks, headers needa change ot havei t auto to a good one
 
 - lightly map out adding online course to vision up
@@ -50,24 +26,22 @@
 
 ### Current merch plan
 
-- Merch needs adding to the site and the front end view needs to feel as if a merch item is a timeslot, obviously without the timeslot behavior, but it should be added to invoices.
+[x] Merch models
+[] Admin creation page, index should contain stock tracking, and a view to see which schools need what.
+[] Card partial (same but pink hue)
+[] Logic tied in to invoices
+[] Logic for registrations are used EVERYWHERE, need to create a good test environment to simulate all situations
+[] Appropriate spec / model tests fleshed out 
 
-- Current thoughts are that I will build this out in a branch and test thoroughly to find any weird behaviors, the seasonal app is a bit convoluted so there are often things that get ruined when I do something like this.
-- merch_items will have --event_id, -name, -cost, -stock, jsonb of metadata (not sure what yet, descriptions etc.) it'll have a FK with events.
-- registrations supports polymorphic associations, so registerable type will be a MerchItem.
-- the invoices model aggregates registrations so I'll add merch items to it.
 
- #### Relationships
-- event has_many merch items
-- child has_many registrations and merch items through registrations
-- Merch item belongs to event, has many registrations
+### 07/17
 
-#### Front end
-- I need to track down how this will appear in stats
-- Stock tracking for management
-- Ability to close sales just like timeslots has
-- Duplicate front end views so that it has it's own card (a muted pink? daniel suggested)
-- Need to check the spreadsheet for bulk billing to ensure its behavior doesn't change w/ this.
+- Worked on merch all afternoon.
+
+### 07/16
+
+- Attempted to flesh out security concerns, endpoint lists, OWASP reports etc.
+- Had issues with OWASP, this is not something I can research and complete in a 4 hour block.
 
 ### 07/15
 

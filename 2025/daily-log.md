@@ -2,6 +2,28 @@
 
 ---
 
+## 2025/07-16 (Wednesday)
+- [x] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Freelance Work / Client Search
+
+📝 Notes:
+- Worked a lot on some security documentation needed by P-up
+- Worked on the bar website a little, I probably need to create a better vision before I play with this any more.
+
+
+## 2025/07-16 (Wednesday)
+- [] Exercise
+- [x] Kids Up IT Work Block (10am-2pm)
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Freelance Work / Client Search
+
+📝 Notes:
+- Need to look for freelance work
+- Need to study harder for both JP and technical
 
 ## 2025/07-15 (Tuesday)
 - [x] Exercise
