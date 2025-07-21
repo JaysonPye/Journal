@@ -2,6 +2,14 @@
 
 ---
 
+## 2025/07-21 (Monday)
+- [x] Exercise
+- [x] Japanese Study
+
+
+📝 Notes:
+- Worked even though it's a public holiday as I want to do other things tomorrow.
+
 ## 2025/07-16 (Wednesday)
 - [x] Exercise
 - [x] Kids Up IT Work Block (10am-2pm)

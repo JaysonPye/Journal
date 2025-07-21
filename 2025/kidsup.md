@@ -34,6 +34,16 @@
 [] Appropriate spec / model tests fleshed out 
 
 
+### 07/21
+
+- Worked on invoicing related to merch
+- Have a few things to do on the 22nd so I did a 4 hour work block today.
+
+
+### 07/18
+
+- Worked on merch, made a few quick adjustments to pictures in a few places.
+
 ### 07/17
 
 - Worked on merch all afternoon.
