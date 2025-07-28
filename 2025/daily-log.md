@@ -1,6 +1,16 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+## 2025/07/28 (Monday)
+
+- [x] Exercise
+- [x] Japanese Study
+- [x] 1hr+ programming related textbook study
+
+📝 Notes:
+- Had a JS coding test over the weekend and realized if I'm listing react on my resume I need to get more in depth.
+- Fixed many different small things which let me feel that "I've done a lot today"
+- Made security documentation, small fixes based on OWASP ZAP reports.
 
 ## 2025/07-21 (Monday)
 - [x] Exercise

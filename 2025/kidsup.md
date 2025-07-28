@@ -27,12 +27,18 @@
 ### Current merch plan
 
 [x] Merch models
-[] Admin creation page, index should contain stock tracking, and a view to see which schools need what.
-[] Card partial (same but pink hue)
-[] Logic tied in to invoices
+[x] Admin creation page, index should contain stock tracking, and a view to see which schools need what.
+[x] Card partial (same but pink hue)
+[x] Logic tied in to invoices
 [] Logic for registrations are used EVERYWHERE, need to create a good test environment to simulate all situations
-[] Appropriate spec / model tests fleshed out 
+[x] Appropriate spec / model tests fleshed out 
 
+
+### 07/28
+
+- Making security changes based on ZAP security reports, many medium/low issues that can be fixed, but a large SQL injection issue is tough to troubleshoot in the seasonal app, has to do with how locale is input.
+- Fixed calendar time mismatching
+- Thumbnail properly fixed for seasonal
 
 ### 07/21
 
