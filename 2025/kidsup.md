@@ -31,7 +31,12 @@
 [x] Card partial (same but pink hue)
 [x] Logic tied in to invoices
 [] Logic for registrations are used EVERYWHERE, need to create a good test environment to simulate all situations
+[] Manager tracking for which kids bought etc.
 [x] Appropriate spec / model tests fleshed out 
+
+### 08-04
+
+- [x] Fix Kindy extension visibility on _child_row in seasonal, adjusted some FIXME calls from bretts old code at the same time to fix N1 query issues.
 
 
 ### 07/28

@@ -1,6 +1,24 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+
+## 2025-08-04
+
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Freelance Work / Client Search
+
+📝 Notes:
+
+- Very honest notes today
+- I've been slacking on this Journal as I always come to and from the PC im coding on but don't generally return after 6pm.
+- Working with Kanzen Master books for jlpt n2 practice, I will take it in December.
+- Many interesting interviews recently, but it is a bit of a let down that most recruiters are mostly interested in my Japanese ability, I recently
+had a chat with a recruiter that said something along the lines of "honestly as long as you are generally competent with coding companies just want to
+have a good interview and make sure your language abilities fit, they don't really care about your skills."
+- A lack of Ruby jobs in the market make me resent the current work I'm doing a little bit, was also told that people see maybe 1 Ruby job pop up each year in Japan.
+- My actual JS skills have suffered since i'm working on different things, maybe I need to read some books and leetcode grind in JS.
 ## 2025/07/28 (Monday)
 
 - [x] Exercise
