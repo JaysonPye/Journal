@@ -37,6 +37,12 @@
 ### 08-04
 
 - [x] Fix Kindy extension visibility on _child_row in seasonal, adjusted some FIXME calls from bretts old code at the same time to fix N1 query issues.
+- [x] Plan out the bulk edits for time_slots per school
+- [x] Add schools checker partial to edit timeslot
+- [x] Batch edit button added to edit multiple school time slots based on a combination of date + name.
+- [] Controller functions to call batch if there are selections
+- [] Add summary page reroute after completion.
+- [] Add csv exports for events that leroy can customise and show to dept heads.
 
 
 ### 07/28
