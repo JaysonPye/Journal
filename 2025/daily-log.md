@@ -2,6 +2,18 @@
 
 ---
 
+## 2025-08-05
+
+- [] Exercise
+- [] Japanese Study
+- [x] IT Self-Study
+- [x] Freelance Work / Client Search
+
+📝 Notes:
+
+- New project planned for Kidsup which is exciting
+- Too many interviews / recruiter chats lately is wearing me out.
+
 ## 2025-08-04
 
 - [x] Exercise

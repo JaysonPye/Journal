@@ -34,6 +34,14 @@
 [] Manager tracking for which kids bought etc.
 [x] Appropriate spec / model tests fleshed out 
 
+### 08-05
+
+
+- [x] Controller functions to call batch if there are selections
+- [] Add summary page reroute after completion.
+- [] Add csv exports for events that leroy can customise and show to dept heads.
+- online ideation
+
 ### 08-04
 
 - [x] Fix Kindy extension visibility on _child_row in seasonal, adjusted some FIXME calls from bretts old code at the same time to fix N1 query issues.
