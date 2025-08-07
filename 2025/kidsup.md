@@ -34,6 +34,12 @@
 [] Manager tracking for which kids bought etc.
 [x] Appropriate spec / model tests fleshed out 
 
+### 08-07
+
+- []Add summary page to reroute after completion.
+- []  Add CSV exports for events that Leroy can customise to show dept heads.
+- [x] more online ideation
+
 ### 08-05
 
 

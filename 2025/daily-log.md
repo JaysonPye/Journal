@@ -2,6 +2,19 @@
 
 ---
 
+## 2025-08-07
+
+- [x] Exercise
+- [] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+
+📝 Notes:
+- Finished off a lot of KU work today
+- Terrible workout - I need to eat the night before.
+- Been playing with a lot of technologies and I think it'd actually just be best to go full-force into Rails lately, so ill finish the current textbook I'm reading and try to get motivated more for rails related projects.
+
 ## 2025-08-05
 
 - [] Exercise
