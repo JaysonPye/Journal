@@ -1,6 +1,17 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+## 2025-08-08
+
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+
+📝 Notes:
+- Big bugfix session at work today, it's nice to learn more about what is happening under the hood, specifically with regards to devise and auth flows in Rails.
+- Security documentation had to be finalized and future security audits are now planned for.
 
 ## 2025-08-07
 

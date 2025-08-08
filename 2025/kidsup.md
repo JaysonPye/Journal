@@ -13,16 +13,13 @@
 
 # LEROY MTG
 
-[] THUMBNAIL when link happens sucks, headers needa change ot havei t auto to a good one
-
-- lightly map out adding online course to vision up
 - students have attendance days in db - they need to be able to set absent and see potential make up lessons
 - provide zoom links based on the planned lessons
 - radio is just links to vimeo static page stays forever
 - Homework teachers upload for students
 - students upload finished homework
 - teachers then mark and return homework
-- Trials 
+- Trials - just make a trial account to log into.
 
 ### Current merch plan
 
@@ -30,14 +27,17 @@
 [x] Admin creation page, index should contain stock tracking, and a view to see which schools need what.
 [x] Card partial (same but pink hue)
 [x] Logic tied in to invoices
-[] Logic for registrations are used EVERYWHERE, need to create a good test environment to simulate all situations
-[] Manager tracking for which kids bought etc.
+[] Manager tracking for which kids bought etc. - this shud be tied to the earlier part for which schools need what - summary for all schools for Admin
 [x] Appropriate spec / model tests fleshed out 
 
 ### 08-07
+- [x] Bugfixes for logout issues
+- [x] Security Log document with folders and subfolders containing ZAP tests in the drive.
+- [x] Add name/email of support_request creator to the emails sent.
+- [] Add CSV exports for events so leroy can send it
+### 08-07
 
-- []Add summary page to reroute after completion.
-- []  Add CSV exports for events that Leroy can customise to show dept heads.
+- [x] Add summary page to reroute after completion.
 - [x] more online ideation
 
 ### 08-05
