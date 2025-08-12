@@ -1,6 +1,21 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+
+## 2025-08-12
+
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+
+📝 Notes:
+
+- Spent time thinking over available jobs in the market and realized I should be hitting SRE applications as I currently do that job in some regards.
+- This thought made me think that I should probably also do some AWS certs to pad out my resume a little, as a result I started reading The Side Reliability Workbook, got two chapters in today.
+- Hopefully I can make the next two weeks about finishing that and doing Cloud cert practice for AWS.
+
 ## 2025-08-08
 
 - [x] Exercise

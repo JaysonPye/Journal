@@ -30,6 +30,10 @@
 [] Manager tracking for which kids bought etc. - this shud be tied to the earlier part for which schools need what - summary for all schools for Admin
 [x] Appropriate spec / model tests fleshed out 
 
+### 08-012
+- Fixed various dependabot alerts like Nokogiri upgrades for both apps.
+- Finalized the changes to exercise and daily activity PDF uploads, more conditionals inside Prawn so that the flow looks good when there is minimal information.
+
 ### 08-07
 - [x] Bugfixes for logout issues
 - [x] Security Log document with folders and subfolders containing ZAP tests in the drive.
