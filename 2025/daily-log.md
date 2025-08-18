@@ -16,6 +16,19 @@
 - This thought made me think that I should probably also do some AWS certs to pad out my resume a little, as a result I started reading The Side Reliability Workbook, got two chapters in today.
 - Hopefully I can make the next two weeks about finishing that and doing Cloud cert practice for AWS.
 
+## 2025-08-18
+
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+
+📝 Notes:
+
+- Started recording some stuff on youtube to keep myself accountable, not sure where it's going yet but I had to put myself out there.
+-
+
 ## 2025-08-08
 
 - [x] Exercise

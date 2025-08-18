@@ -30,6 +30,16 @@
 [] Manager tracking for which kids bought etc. - this shud be tied to the earlier part for which schools need what - summary for all schools for Admin
 [x] Appropriate spec / model tests fleshed out 
 
+
+### 08/18
+
+- Had a great summer break.
+- [] Add summary pages for old events to the stats area of seasonal app.
+- [] Answer dependabot updates and deploy at least high/criticals today.
+- [] Create folder structure for future security information
+- [] Download current event information as a CSV for all  schools
+- Let activity creators (writer's profile) Delete/edit attached files to their created activities or activities they are assigned to.
+
 ### 08-012
 - Fixed various dependabot alerts like Nokogiri upgrades for both apps.
 - Finalized the changes to exercise and daily activity PDF uploads, more conditionals inside Prawn so that the flow looks good when there is minimal information.
