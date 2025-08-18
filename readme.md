@@ -12,9 +12,6 @@ Welcome to my GitHub journal! Here I document my learning journey, projects, and
 - [2025](./2025/)
   - [Kidsup2025](./2025/kidsup)
   - [Daily Journal](./2025/daily-log.md)
-- [Topics](./topics/)
-  - [Photobook](./topics/Photobook.md)
-  - [LMS System](./topics/LMS.md)
 
 ## About
 

@@ -8,7 +8,6 @@
 
 - make spt/outdoor mix so that specials can include hat things
 - Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
-- Stats: The base page that shows event stats for admins is not in the stats page, it is essentially gone after the event closes, basically we want a summaries page that shows taht per event, might currently exist in some form under category: bookings
 
 
 # LEROY MTG
@@ -31,28 +30,36 @@
 [x] Appropriate spec / model tests fleshed out 
 
 
+
 ### 08/18
 
 - Had a great summer break.
-- [] Add summary pages for old events to the stats area of seasonal app.
-- [] Answer dependabot updates and deploy at least high/criticals today.
+- [x] Create hardcoded card inside add_slot for this one off halloween promotion, essentially a card with a set picture that will select multiple parties together.
+- [x] Add summary pages for old events to the stats area of seasonal app.
+- [x] Answer dependabot updates and deploy nokogiri one on seasonal.
 - [] Create folder structure for future security information
-- [] Download current event information as a CSV for all  schools
-- Let activity creators (writer's profile) Delete/edit attached files to their created activities or activities they are assigned to.
+- [x] Let activity creators (writer's profile) Delete/edit attached files to their created activities or activities they are assigned to.
 
-### 08-012
+
+### 08-12
+
 - Fixed various dependabot alerts like Nokogiri upgrades for both apps.
 - Finalized the changes to exercise and daily activity PDF uploads, more conditionals inside Prawn so that the flow looks good when there is minimal information.
 
+
 ### 08-07
+
 - [x] Bugfixes for logout issues
 - [x] Security Log document with folders and subfolders containing ZAP tests in the drive.
 - [x] Add name/email of support_request creator to the emails sent.
 - [] Add CSV exports for events so leroy can send it
+
+
 ### 08-07
 
 - [x] Add summary page to reroute after completion.
 - [x] more online ideation
+
 
 ### 08-05
 
