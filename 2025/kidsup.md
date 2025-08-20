@@ -29,12 +29,15 @@
 [] Manager tracking for which kids bought etc. - this shud be tied to the earlier part for which schools need what - summary for all schools for Admin
 [x] Appropriate spec / model tests fleshed out 
 
-
+### 08/19
+- [x] Create hardcoded card inside add_slot for this one off halloween promotion, essentially a card with a set picture that will select multiple parties together.
+- [x] Bugfix issues with afternoon slots not being edited alongside morning slots, resulting in names/dates being wrong on those invoices.
+- [x] Leroy MTG
 
 ### 08/18
 
 - Had a great summer break.
-- [x] Create hardcoded card inside add_slot for this one off halloween promotion, essentially a card with a set picture that will select multiple parties together.
+
 - [x] Add summary pages for old events to the stats area of seasonal app.
 - [x] Answer dependabot updates and deploy nokogiri one on seasonal.
 - [] Create folder structure for future security information

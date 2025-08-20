@@ -1,6 +1,20 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+
+## 2025-08-20
+
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+
+📝 Notes:
+
+- Had some fun experimenting with some static site ai generation for karaoke bar blue.
+- 
+
 ## 2025-08-18
 
 - [x] Exercise
@@ -12,7 +26,6 @@
 📝 Notes:
 
 - Started recording some stuff on youtube to keep myself accountable, not sure where it's going yet but I had to put myself out there.
-- p
 
 ## 2025-08-12
 
