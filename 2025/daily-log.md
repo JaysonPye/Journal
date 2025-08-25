@@ -1,6 +1,16 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+## 2025-08-22
+
+- [] Exercise
+- [] Japanese Study
+- [] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+
+- Very sick day, barely got any work done let alone other things.
 
 ## 2025-08-20
 
@@ -13,7 +23,6 @@
 📝 Notes:
 
 - Had some fun experimenting with some static site ai generation for karaoke bar blue.
-- 
 
 ## 2025-08-18
 
