@@ -29,6 +29,21 @@
 [] Manager tracking for which kids bought etc. - this shud be tied to the earlier part for which schools need what - summary for all schools for Admin
 [x] Appropriate spec / model tests fleshed out 
 
+### 08/22
+
+- Very sick, adapted some things Leroy asked for but need to make up some time.
+
+### 08/21
+- [x] Added some logic to the halloween cards
+- [x] Added dates to cards
+- [x] Added card time logic helper to remove times when there are parties, times have been put into the name by leroy to help with some invoice related issue.
+- [x] Leroy MTG
+
+### 08/20
+- [x] Pushed gem updates
+- [x] Test audit as lesson specs were becoming sluggish, many tests had unneccesary :js included.
+- [x] Last changes to lessons, allowed writers to edit their resources among other things.
+
 ### 08/19
 - [x] Create hardcoded card inside add_slot for this one off halloween promotion, essentially a card with a set picture that will select multiple parties together.
 - [x] Bugfix issues with afternoon slots not being edited alongside morning slots, resulting in names/dates being wrong on those invoices.
