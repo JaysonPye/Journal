@@ -29,6 +29,13 @@
 [] Manager tracking for which kids bought etc. - this shud be tied to the earlier part for which schools need what - summary for all schools for Admin
 [x] Appropriate spec / model tests fleshed out 
 
+
+### 08/25+26
+
+- Fleshing the schema out for online school, this will now be added as a branch.
+- Plan is to work on it a fair bit this week so that I'm able to provide info as to when it will be finished a little better.
+- Very hard to give a realistic timeline until I've fleshed it out a little.
+
 ### 08/22
 
 - Very sick, adapted some things Leroy asked for but need to make up some time.

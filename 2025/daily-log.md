@@ -1,6 +1,20 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+
+## 2025-08-26
+
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+
+- Started making db concepts for online school
+- Will use a branch until the entire thing is fleshed out then incorporate it into vision
+- Started grinding some 50 hour intensive course for aws ssa cert, it's the most common to have done but it will still flesh out my knowledge of aws and help with future roles.
+
 ## 2025-08-22
 
 - [] Exercise
