@@ -13,7 +13,7 @@
 
 - Worked on online school stuff last week then it got scrapped, this was disappointing as I was really looking forward to a large scape implementation.
 - Creating many japanese email templates and ensuring they dont get sent to trash mail, there are several different emails that we use and a few of them DO get sent to spam, this is really hard to troubleshoot.
-
+- Starting a bunch of tracking things to check my progress moving forward as I've felt stagnant recently.
 
 ## 2025-08-26
 
