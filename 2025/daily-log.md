@@ -1,6 +1,18 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+## 2025-09-03
+
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+
+- Focusing harder on design choices in rails has become a priority as I've finally started to see jobs popping up in ruby that I feel somewhat qualified for.
+- From tomorrow I will start doing some leetcode work in ruby as I feel my simple problem solving work has been replaced with making a million partials to display front end information.
+- Planning some more youtube content from this weekend to keep myself going.
 
 ## 2025-09-01
 
