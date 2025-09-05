@@ -1,6 +1,22 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+## 2025-09-05
+
+- [] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+
+- Parenting is so fun, I keep waking up to some crazy mess from my 3 year old and it actually makes my day seeing what kind of trouble he can get into at 5am.
+- Added a quick band-aid solution to a project with some hard coded front end things as it was temporary, now that it's looking like a more permanent solution is needed I'm absolutely realizing my folly.
+- Merged some old forked repo's ive been maintaining into their own so that my github window looks a little more full.
+- Rainy days make me feel lazy, I just want to watch tv or something.
+
+
+
 ## 2025-09-03
 
 - [x] Exercise
