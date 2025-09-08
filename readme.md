@@ -1,6 +1,6 @@
 # My Journal
 
-Welcome to my GitHub journal! Here I document my learning journey, projects, and daily thoughts
+Welcome to my GitHub journal! Here I document my learning journey, projects, and daily thoughts. Recently this has turned more into a daily life blog.
 
 ## Table of Contents
 
@@ -15,4 +15,4 @@ Welcome to my GitHub journal! Here I document my learning journey, projects, and
 
 ## About
 
-This journal is a personal project to keep track of my progress, as well as work journals for Kids UP as well as freelance projects.
+This journal is a personal project to keep track of my progress with work, study, and general life achievements that I'm working towards.
