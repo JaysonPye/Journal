@@ -1,6 +1,20 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 
 ---
+
+## 2025-09-08
+
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+
+- Set up staging site for a wordpress site the company is building, including a CI/CD pipeline for the other front end developer.
+- Realized the seasonal site uses a lot of helper methods inside forms and this is causing bugs thruought the app, anything using a form in rails should bind to the model's attributes instead or using virtual accessors in the models, we are using helper methods to prefill names and it causes bugs thruought different form areas that are a huge headache for the admins, (eg, names loading in full names for first and family names).
+- Finished a fiction book today and really enjoyed it, it had been a while since I read fiction without an audiobook it was kind of nice to be glued to my kindle with all my spare time.
+
 ## 2025-09-05
 
 - [] Exercise

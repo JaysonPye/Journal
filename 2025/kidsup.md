@@ -20,6 +20,12 @@
 - teachers then mark and return homework
 - Trials - just make a trial account to log into.
 
+
+
+# Temporarily stopped using this as work is asking me to track things elsewhere and I'm just going to be inconsistent here.
+
+
+
 ### Current merch plan
 
 [x] Merch models
