@@ -2,6 +2,30 @@
 
 ---
 
+## 2025-09-10
+
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+
+- Worked through 3 different projects and pushed them to Prod
+- Realized we've been deploying the wrong font in prod for a very long time for pdf generation and noone was noticing.
+
+## 2025-09-9
+
+- [] Exercise
+- [] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+
+- Felt sick all day and barely achieved anything.
+- Decided to work through old test cases and clean things up on a couple of projects, and change how we're managing some repos.
+
 ## 2025-09-08
 
 - [x] Exercise
