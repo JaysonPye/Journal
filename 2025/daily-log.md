@@ -4,6 +4,17 @@
 
 ## 2025-09-10
 
+- [] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+
+- Turned around and refactored a bunch of different areas of code today, feels good to work through requests and turn them around same day.
+
+## 2025-09-10
+
 - [x] Exercise
 - [x] Japanese Study
 - [x] IT Self-Study
