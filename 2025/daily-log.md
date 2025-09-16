@@ -7,6 +7,20 @@
 - [] Exercise
 - [x] Japanese Study
 - [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+
+- I have been writing partially in neovim for a while, and have been making good use of vim motions, but I felt as though tailoring my dev experience and obsessing over configs was not really the kind of person that I am, I wanted something more out of the box but I didn't really enjoy the vscode experience (its slow)
+- Today I've started using Zed editor and I am so pleasantly surprised, it has basically all of the things that I want from vscode, but it feels snappy and fast when I open projects etc.
+- This editor basically feels like vim, but with the ease of using vscode.
+
+
+## 2025-09-10
+
+- [] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
 - [] Jobhunt / Client Search
 
 📝 Notes:
@@ -409,7 +423,7 @@ have a good interview and make sure your language abilities fit, they don't real
 - [] Freelance Work / Client Search
 
 📝 Notes:
-- Need to rework how I am doing my schedule, maybe I might move the part time block to the afternoon, it's easier to focus hard when it is paid work so 
+- Need to rework how I am doing my schedule, maybe I might move the part time block to the afternoon, it's easier to focus hard when it is paid work so
 I think if i can move my study related things to the morning when I am the most motivated that might fit better.
 - For today I am doing KU work through the usual 10-2 block.
 - Managed to do some good IT study and I am having better discipline with doing TDD development every time rather than taking shortcuts here and there.
