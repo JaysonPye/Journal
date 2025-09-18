@@ -2,7 +2,20 @@
 
 ---
 
-## 2025-09-10
+## 2025-09-18
+
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+
+- This swap to zed editor has been insane, it's motivated me to code a lot of things in my own time the last couple of days.
+- Huge workout today, I've been off and on but when I have done it i've been doing a big one.
+- With regards to gym, I'm thinking of starting a running challenge for a month, and seeing if I can build a habit that day.
+
+## 2025-09-16
 
 - [] Exercise
 - [x] Japanese Study
@@ -16,7 +29,7 @@
 - This editor basically feels like vim, but with the ease of using vscode.
 
 
-## 2025-09-10
+## 2025-09-12
 
 - [] Exercise
 - [x] Japanese Study
