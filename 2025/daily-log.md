@@ -2,12 +2,24 @@
 
 ---
 
+
+## 2025-09-19
+
+- [] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+
+- Got a lot done today work side, I have some catchup to do after having gastro the last few days, but I'm feeling good and ready to go.
+
 ## 2025-09-18
 
 - [x] Exercise
 - [x] Japanese Study
-- [x] IT Self-Study
-- [x] Jobhunt / Client Search
+- [] IT Self-Study
+- [] Jobhunt / Client Search
 
 📝 Notes:
 
