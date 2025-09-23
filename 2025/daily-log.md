@@ -14,8 +14,7 @@
 - Public holiday but I still got some work and study done, started sitting in discord with a friend in an effort to hold each other accountable.
 - Going through ruby coding exercises.
 - Going to make an effort to break down time in this journal to try to get an overview of what I'm doing each day.
-- [14:10-15:00] Coding exercises
-
+- Ruby coding exercises [x][x]
 ## 2025-09-22
 
 - [] Exercise
