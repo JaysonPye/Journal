@@ -3,7 +3,7 @@
 ---
 
 ## 2025-09-23
-
+- One [x] = 25minutes
 - [x] Exercise
 - [x] Japanese Study
 - [x] IT Self-Study
@@ -15,6 +15,9 @@
 - Going through ruby coding exercises.
 - Going to make an effort to break down time in this journal to try to get an overview of what I'm doing each day.
 - Ruby coding exercises [x][x]
+- Ruby textbook [x][x]
+- Japanese listening practice [x]
+
 ## 2025-09-22
 
 - [] Exercise
