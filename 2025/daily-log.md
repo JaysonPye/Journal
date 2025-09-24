@@ -1,9 +1,23 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
-
+# one [x] means 25minutes or a pomodoro of focus time
 ---
+## 2025-09-23
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+
+- Got some good fixes in for a couple of work projects today.
+- After going to a Japanese lesson on Monday I feel very motivated, I may yet start taking them 2-3 times a week if there is space.
+- Wednesday and Thursday I have some scheduled Gaming time with my friends from Australia, and thus don't get quite as much done.
+- Ruby coding exercises [x]
+- Rails 7 way re-read through [x][x]
+- Japanese listening practice [x][x][x]
+
 
 ## 2025-09-23
-- One [x] = 25minutes
 - [x] Exercise
 - [x] Japanese Study
 - [x] IT Self-Study
@@ -17,6 +31,7 @@
 - Ruby coding exercises [x][x]
 - Ruby textbook [x][x]
 - Japanese listening practice [x]
+- The rest of my time was mostly spent with family.
 
 ## 2025-09-22
 
