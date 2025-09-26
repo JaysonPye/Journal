@@ -11,6 +11,8 @@
 📝 Notes:
 - Japanese lesson today [x][x][x][x] 2 hour lesson at night
 - Had a fantastic workout
+- Ruby exercises [x][x]
+- I realized through this ruby basics stuff that I jumped straight into rails and it's helper methods without understanding some of the underlying basics, so it's been absolutely fantastic to go through these on the odin site.
 - The wife is a bit sick so I'm also caring for her through the day.
 
 ## 2025-09-25
