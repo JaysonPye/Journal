@@ -1,7 +1,38 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
 # one [x] means 25minutes or a pomodoro of focus time
 ---
-## 2025-09-23
+
+## 2025-09-25
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+- Japanese lesson today [x][x][x][x] 2 hour lesson at night
+- Had a fantastic workout
+- The wife is a bit sick so I'm also caring for her through the day.
+
+## 2025-09-25
+- [] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+- Had some interesting hits from some work opportunities, but one was really pushing me for a role that I really have no experience in and I wasn't sure how to feel about it.
+- Another role I have a live coding round coming up for and I feel so bad about it.
+- Rails 7 way re-read through [x][x]
+- Japanese listening practice [x][x][x]
+- Ruby exercises [x]
+
+- [] pearson test imports
+- [] dentist stuff
+- [] ruby exercises
+- [] JP textbook stuff
+
+
+## 2025-09-24
 - [x] Exercise
 - [x] Japanese Study
 - [x] IT Self-Study
