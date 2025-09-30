@@ -2,7 +2,18 @@
 # one [x] means 25minutes or a pomodoro of focus time
 ---
 
-## 2025-09-25
+## 2025-09-29
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+- Japanese lesson today [x][x][x][x][x][x][x][x]
+- Insane amount of Japanese study at the moment, things are going fantastic on that front.
+
+
+## 2025-09-26
 - [x] Exercise
 - [x] Japanese Study
 - [x] IT Self-Study
