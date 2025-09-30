@@ -18,7 +18,7 @@
 - Seasonal PM button is linking the AM attendance????? need to go through sms event views and double check data being sent in.
 
 - Winter going live before the 24th so these need to be done by 17th.
-
+- Please mark off on the excel sheet as these are done.
 ### Snacks
 - own snack table from ss will be added to imports
 - If a kid is own_snack then they should never be charged with oyatsudai
