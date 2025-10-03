@@ -2,6 +2,39 @@
 # one [x] means 25minutes or a pomodoro of focus time
 ---
 
+## 2025-10-2
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+- Managed to go through the backlog of bugfixes for work and cross a lot of things off the list.
+- The 10k was incredibly painful but I managed to do 11k in 1 go, with a lot of walking on the way back as I'm still hobbled. Feet hurt but my knees don't.
+- Huge Japanese session from now until the end of my Japanese class at 9pm.
+
+## 2025-10-2
+- [x] Exercise
+- [] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+- So the night after my first 10k of the month my knees hurt so bad at 1am I went downstairs and had frozen veggie packs on each for a little while.
+- Still had a very productive day, but I had to split the 10k into 3 segments and I basically hobbled.
+
+## 2025-10-1
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+- Today marks the start of October, I have large personal goals for october in terms of my personal life.
+- The first is that I'm not going to drink any alcohol or eat trash this month.
+- The second is that I'm going to run 10km every single day. I'll be tracking this on Strava to share every day. I don't mind if I need to walk a lot of this or even just have an insanely slow pace, but I believe it's good for my mental to stick to this.
+- The third is that I'm not going to go back on what I've already been doing really well during September, which in particular is Japanese study and daily coding challenges.
+
 ## 2025-09-30
 - [] Exercise
 - [x] Japanese Study
