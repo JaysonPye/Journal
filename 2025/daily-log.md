@@ -2,7 +2,19 @@
 # one [x] means 25minutes or a pomodoro of focus time
 ---
 
-## 2025-10-2
+## 2025-10-6
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+- I've been intermittently re-reading "the rails 7 way" and it's been quite eye opening now that I have more context and knowledge. I'm able to understand concepts and get some little tidbits of important information that may come up in a job interview and understand why it's such a way.
+- Another large set of Japanese lessons to complete today [x][x][x][x][x][x][x]
+- These 10k runs are breaking my knees, last night I couldn't really complete it so I'm hoping having that bit of rest allows me to set a personal best today.
+- I have already lost 2-3 KG in this 6 days so it's working an absolute treat, I find myself just going to bed early now that I'm not drinking, as I'm usually just studying and I tire myself out by 10.
+
+## 2025-10-3
 - [x] Exercise
 - [x] Japanese Study
 - [x] IT Self-Study
@@ -11,7 +23,7 @@
 📝 Notes:
 - Managed to go through the backlog of bugfixes for work and cross a lot of things off the list.
 - The 10k was incredibly painful but I managed to do 11k in 1 go, with a lot of walking on the way back as I'm still hobbled. Feet hurt but my knees don't.
-- Huge Japanese session from now until the end of my Japanese class at 9pm.
+- Huge Japanese session from now until the end of my Japanese class at 9pm. [x][x][x][x][x][x][x]
 
 ## 2025-10-2
 - [x] Exercise
