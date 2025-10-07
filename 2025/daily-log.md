@@ -1,8 +1,149 @@
 # Daily Log of what I need to get done each day, with thoughts on how it went and new things I learned.
-
+# one [x] means 25minutes or a pomodoro of focus time
 ---
 
+## 2025-10-6
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
 
+📝 Notes:
+- I've been intermittently re-reading "the rails 7 way" and it's been quite eye opening now that I have more context and knowledge. I'm able to understand concepts and get some little tidbits of important information that may come up in a job interview and understand why it's such a way.
+- Another large set of Japanese lessons to complete today [x][x][x][x][x][x][x]
+- These 10k runs are breaking my knees, last night I couldn't really complete it so I'm hoping having that bit of rest allows me to set a personal best today.
+- I have already lost 2-3 KG in this 6 days so it's working an absolute treat, I find myself just going to bed early now that I'm not drinking, as I'm usually just studying and I tire myself out by 10.
+
+## 2025-10-3
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+- Managed to go through the backlog of bugfixes for work and cross a lot of things off the list.
+- The 10k was incredibly painful but I managed to do 11k in 1 go, with a lot of walking on the way back as I'm still hobbled. Feet hurt but my knees don't.
+- Huge Japanese session from now until the end of my Japanese class at 9pm. [x][x][x][x][x][x][x]
+
+## 2025-10-2
+- [x] Exercise
+- [] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+- So the night after my first 10k of the month my knees hurt so bad at 1am I went downstairs and had frozen veggie packs on each for a little while.
+- Still had a very productive day, but I had to split the 10k into 3 segments and I basically hobbled.
+
+## 2025-10-1
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+- Today marks the start of October, I have large personal goals for october in terms of my personal life.
+- The first is that I'm not going to drink any alcohol or eat trash this month.
+- The second is that I'm going to run 10km every single day. I'll be tracking this on Strava to share every day. I don't mind if I need to walk a lot of this or even just have an insanely slow pace, but I believe it's good for my mental to stick to this.
+- The third is that I'm not going to go back on what I've already been doing really well during September, which in particular is Japanese study and daily coding challenges.
+
+## 2025-09-30
+- [] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+- Japanese lesson today [x][x][x]
+- I was a little behind on work so after my work shift was mostly meetings I spent most of my afternoon coding.
+
+
+## 2025-09-29
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+- Japanese lesson today [x][x][x][x][x][x][x][x]
+- Insane amount of Japanese study at the moment, things are going fantastic on that front.
+
+
+## 2025-09-26
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+- Japanese lesson today [x][x][x][x] 2 hour lesson at night
+- Had a fantastic workout
+- Ruby exercises [x][x]
+- I realized through this ruby basics stuff that I jumped straight into rails and it's helper methods without understanding some of the underlying basics, so it's been absolutely fantastic to go through these on the odin site.
+- The wife is a bit sick so I'm also caring for her through the day.
+
+## 2025-09-25
+- [] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+- Had some interesting hits from some work opportunities, but one was really pushing me for a role that I really have no experience in and I wasn't sure how to feel about it.
+- Another role I have a live coding round coming up for and I feel so bad about it.
+- Rails 7 way re-read through [x][x]
+- Japanese listening practice [x][x][x]
+- Ruby exercises [x]
+
+- [] pearson test imports
+- [] dentist stuff
+- [] ruby exercises
+- [] JP textbook stuff
+
+
+## 2025-09-24
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+
+- Got some good fixes in for a couple of work projects today.
+- After going to a Japanese lesson on Monday I feel very motivated, I may yet start taking them 2-3 times a week if there is space.
+- Wednesday and Thursday I have some scheduled Gaming time with my friends from Australia, and thus don't get quite as much done.
+- Ruby coding exercises [x]
+- Rails 7 way re-read through [x][x]
+- Japanese listening practice [x][x][x]
+
+
+## 2025-09-23
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+
+- Public holiday but I still got some work and study done, started sitting in discord with a friend in an effort to hold each other accountable.
+- Going through ruby coding exercises.
+- Going to make an effort to break down time in this journal to try to get an overview of what I'm doing each day.
+- Ruby coding exercises [x][x]
+- Ruby textbook [x][x]
+- Japanese listening practice [x]
+- The rest of my time was mostly spent with family.
+
+## 2025-09-22
+
+- [] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
+
+- Went to a Japanese lesson, my first ever official class.
+- I have always had fear of failure blocking me from putting myself out there for things like this, so it was a great step.
 ## 2025-09-19
 
 - [] Exercise

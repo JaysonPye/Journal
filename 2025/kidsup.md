@@ -1,3 +1,34 @@
+# SM kids-up.app requests 9/30
+
+- [x] In where it says SSID on the japanese tables under event and also where you search for children, SSID should be 生徒コード, find wherever its mentioned and change it
+- [x] Keep マイページID as that though
+- Follow picture example for invoice adn remove the totals -- info is currently kind of doubled and tough to read for parents.
+- Attendance sheet for an activity should include the activities name, top of currently JS so it doesnt come up on the print area.
+- [x] text change of お客様 --> 保護者
+- Change non member to non-member (family of member) for non members to have siblings enrolled,
+- potentially we should make an additional column in the attendance sheet for this family of member thing., so higaisha to higaishakazoku
+- If i add a column I should call it like family of internal? and put check or *maru*
+- Add a note on the final confirm page stating itll be sent from bookings@kids-up.app, use the text from excel doc.
+- That will be after the confirm button is pressed.
+-  [x] *Also added a few others* update display order of ssid ascending/descending -- put dropdowns to order them. --- hide arrow on print
+- if student has allergy, remove snack and lunch fees (sm will have t oadd if its needed)
+- Special days people who have photo service in the avo dont appear on the list. Since sp days have separate sheets for am/pm can we extract the whole days sheet.
+- When I test the photo service stuff I need to check it from the SMS event views, not admin.
+- I fixed photo service one on an admins view but I guess they are separate partials so I need to check the SMs
+- Seasonal PM button is linking the AM attendance????? need to go through sms event views and double check data being sent in.
+
+- Winter going live before the 24th so these need to be done by 17th.
+- Please mark off on the excel sheet as these are done.
+### Snacks
+- own snack table from ss will be added to imports
+- If a kid is own_snack then they should never be charged with oyatsudai
+- Add the JP text above アレルゲン　enter kudasau thing.
+- Only SM edit side should have changing own stack input.
+
+- on kid creation have (is this a food allergy) yes or no and (no snack will be given) on no.
+
+
+
 # May
 
 ## Backlog for May is as per the google doc
@@ -33,7 +64,7 @@
 [x] Card partial (same but pink hue)
 [x] Logic tied in to invoices
 [] Manager tracking for which kids bought etc. - this shud be tied to the earlier part for which schools need what - summary for all schools for Admin
-[x] Appropriate spec / model tests fleshed out 
+[x] Appropriate spec / model tests fleshed out
 
 
 ### 08/25+26
@@ -244,11 +275,11 @@ Previously if you created an sm or an org admin I would need to manually assign 
 - Fixed four different long standing bugs that have been sitting in the vision up system
 - TODO: Notifications rework, it's saving an entire url which doesn't really work. It should after the domain since we are using multi domains now, need to adjust all existing ones too.
 
-### 05/21   
+### 05/21
 
 - Found Leroy's bug
 - "confirm in ss" runs an edit/save on invoices which triggers calc_cost again.
-- Needed to try two options. 1. add confirmed to the database and have it only run save when that isnt on or 2. 
+- Needed to try two options. 1. add confirmed to the database and have it only run save when that isnt on or 2.
 have it not run calc_cost if the method is from ss confirm.
 - Chose to fix up what was constructed before and just have unless in_ss tagged in a few places.
 
