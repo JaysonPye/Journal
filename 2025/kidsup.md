@@ -1,16 +1,16 @@
 # SM kids-up.app requests 9/30
 
-- In where it says SSID on the japanese tables under event and also where you search for children, SSID should be 生徒コード, find wherever its mentioned and change it
-- Keep マイページID as that though
+- [x] In where it says SSID on the japanese tables under event and also where you search for children, SSID should be 生徒コード, find wherever its mentioned and change it
+- [x] Keep マイページID as that though
 - Follow picture example for invoice adn remove the totals -- info is currently kind of doubled and tough to read for parents.
 - Attendance sheet for an activity should include the activities name, top of currently JS so it doesnt come up on the print area.
-- text change of お客様 --> 保護者
+- [x] text change of お客様 --> 保護者
 - Change non member to non-member (family of member) for non members to have siblings enrolled,
 - potentially we should make an additional column in the attendance sheet for this family of member thing., so higaisha to higaishakazoku
 - If i add a column I should call it like family of internal? and put check or *maru*
 - Add a note on the final confirm page stating itll be sent from bookings@kids-up.app, use the text from excel doc.
 - That will be after the confirm button is pressed.
-- update display order of ssid ascending/descending -- put dropdowns to order them. --- hide arrow on print
+-  [x] *Also added a few others* update display order of ssid ascending/descending -- put dropdowns to order them. --- hide arrow on print
 - if student has allergy, remove snack and lunch fees (sm will have t oadd if its needed)
 - Special days people who have photo service in the avo dont appear on the list. Since sp days have separate sheets for am/pm can we extract the whole days sheet.
 - When I test the photo service stuff I need to check it from the SMS event views, not admin.
