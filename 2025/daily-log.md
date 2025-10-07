@@ -9,6 +9,19 @@
 - [x] Jobhunt / Client Search
 
 📝 Notes:
+- Learning 11ty in order to place this with some other blog aspects onto a static site I can host on githubIO.
+- Approximately 2 hours of Japanese practice today [x][x][x][x]
+- Ruby exercises [x][x]
+- Some views on my seasonal app are getting insanely convoluted, I managed to work some logic into helpers/concerns recently as it was getting unreadable, but still I'm often asked to add a small thing conditionally to a form that really needs to be done "now" rather than in a few hours.
+- Yesterday's run is still wearing on me, "running" it in under a 7minute pace has been the most amazing feeling.
+
+## 2025-10-6
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+📝 Notes:
 - I've been intermittently re-reading "the rails 7 way" and it's been quite eye opening now that I have more context and knowledge. I'm able to understand concepts and get some little tidbits of important information that may come up in a job interview and understand why it's such a way.
 - Another large set of Japanese lessons to complete today [x][x][x][x][x][x][x]
 - These 10k runs are breaking my knees, last night I couldn't really complete it so I'm hoping having that bit of rest allows me to set a personal best today.
