@@ -21,7 +21,7 @@
 - 10-~ get ready for bed + clean up.
 
 - Ended up failing my 10k today, bought some new shoes which should hopefully help but runner's knee is coming in red hot.
-
+- Managed to add a few things to my portfolio site but not a lot, mostly fiddling.
 ## 2025-10-6
 - [x] Exercise
 - [x] Japanese Study
