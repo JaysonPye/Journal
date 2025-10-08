@@ -5,6 +5,32 @@
 ## 2025-10-6
 - [x] Exercise
 - [x] Japanese Study
+- [] IT Self-Study
+- [] Jobhunt / Client Search
+
+📝 Notes:
+- Bit of a self note to jot down times I need to do certain things
+- 6-9 = care for kid
+- 9-10 = Japanese Anki deck
+- 10-2 = Most of my work tasks
+- 2-3 = Lunch + new anki cards
+- 3-5 = Work out, 10k run + JP listening
+- 5-6 = Shower, kid stuff, housework, eat
+- 6-9 = Wednesday gaming session ( on every wednesday, helps me chill out and hang out with aussies a bit )
+- 9-10 = Shin kanzen reading exercises
+- 10-~ get ready for bed + clean up.
+
+- Ended up failing my 10k today, bought some new shoes which should hopefully help but runner's knee is coming in red hot.
+
+## 2025-10-6
+- [x] Exercise
+- [x] Japanese Study
+- [x] IT Self-Study
+- [x] Jobhunt / Client Search
+
+## 2025-10-6
+- [x] Exercise
+- [x] Japanese Study
 - [x] IT Self-Study
 - [x] Jobhunt / Client Search
 
@@ -14,6 +40,7 @@
 - Ruby exercises [x][x]
 - Some views on my seasonal app are getting insanely convoluted, I managed to work some logic into helpers/concerns recently as it was getting unreadable, but still I'm often asked to add a small thing conditionally to a form that really needs to be done "now" rather than in a few hours.
 - Yesterday's run is still wearing on me, "running" it in under a 7minute pace has been the most amazing feeling.
+- I think I may have to go for a walk and/or rethink how I'm going to do a 10k run every single day, even the soles of my feet are having troubles.
 
 ## 2025-10-6
 - [x] Exercise
