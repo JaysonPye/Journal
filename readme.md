@@ -1,3 +1,6 @@
+# This Journal has been moved to https://github.com/JaysonPye/pyegramming/blob/main/daily-log.md
+
+
 # My Journal
 
 Welcome to my GitHub journal! Here I document my learning journey, projects, and daily thoughts. Recently this has turned more into a daily life blog.
