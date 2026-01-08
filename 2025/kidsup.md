@@ -1,3 +1,97 @@
+
+# .JP site implementation estimates.
+
+### Actual deployment strategy
+
+- Take a backup
+- Add new plugin (ACF) and set it up
+- Copy over files that have changed based on mock deploy
+
+### Steps to completion and time estimations
+
+1. Final touches on designs and code cleanup - 1 hour
+2. Mock deployment to a similar server to simulate and find potential bugs. - 1 hours
+3. Fix issues found during mock deployment - 1-4 hours
+4. Deploy - 1-4 hours depending on issues that arise.
+
+- *Total* 4-10 hours
+
+### Deployment timing
+
+The deploy will probably take just an hour and be semi functional during this. I would like to do it early in the morning as there is basically no traffic at that time. This strategy leaves me present and available to fix other styling issues that may be found when people get into the office.
+
+
+
+# 2025/12/24
+
+- Lesson matrixes reworked - its useless now
+- Weekly list, when you hit that details it shows the lessons assigned to each course for each week, course tabs at the top
+- Can delete course lesson from that interface
+- Can delete an entire week from that interface
+- pearson reuploads for the same test should check the other scores and put them together (merge tests)
+- retakes need 2 month grace ro differentiate whats a retake and whats a new test
+
+- lesson matrixes - pearson merging
+- 2 pts below for bl
+- report cards might say a low score rather than BL
+- Orgadmins should see ALL kids for their org
+- orgadmins should be able to change passwords of below people
+- SM can change teacher pws
+- Instead of header name in sm view it says "org administrator" or something
+- verification on create course to say course name and confirm
+
+- Homeworks just inside the english lesson.
+
+- Can't delete users -- at least me and daniel should be able to remove admins, prob jack too.
+- upgrade role for individual accounts
+- all admins can do this
+- superadmins can promote to admin
+
+
+- AFTERTNOON NO PHOTO SERVICE UNLESS SPECIAL
+- 
+# 2025/17 mtg notes
+- Afternoon seasonals should have a button (remove combo put it under near there) when there is an actual actual afternoon seasonal that tells us if thats a regular school day for that student (theres a discount)
+- This discount makes the activity not count towards combo bonuses like 1x 3x 5x 10x things, and also only costs 2500yen
+- Add delete button for activities in schools that have no signups ( so we can make a extra day for a school as seasonal and delete the afternoon )
+- button only shows for internal kids, pr[]
+
+- Maybe if theres a PM ACTIVITY it should still show up in the former part if theyve signed up for hte morning (afternoongs get a O and dont go to the bottom
+- bookings page card not centered (wtf)
+)
+# 2025/12 TIME OFF
+photobook for each person and MUST charges siblings coming to same event
+repeater discount removed
+
+december 29 - january 3rd
+# 2025/12 Daniel requests
+
+[] spider graph should cut BL as the max pts before satisfactory
+[] Total shows NA when 2 or more bl/ns (avg)
+[] Lesson title case sensitivity off for searches
+[] Lessons: Remove button not under on courses
+[] filter options when lots of courses attached to a lesson (filter only ku ones, also list numbers)
+[] set whole week if its week1
+[] weekdays ,weekends as selectors makes all of em (all weekdays, all week)
+[] makes 5 objects shows one as one if possible in view to make it clean, turn courses
+[] coutrse spreadsheet uploads
+[] course - week - day - lesson - course lesson model spreadsheet import
+[] tests overview - just have view results or edit next ot the test name
+[] inside test view have threshholds listed change edit to edit test parameters, and test results to view student results
+[] ADD PEASON TESTS PROPERLY
+[] ADD PEARSON BATCH REPORTS
+[] style report to daniels pic
+
+
+--hero on soecialist is missing
+front page only scss file with the new one, pull old kidsup one and hope it fixes most of the issues.
+
+
+
+
+
+
+
 # SM kids-up.app requests 9/30
 
 - [x] In where it says SSID on the japanese tables under event and also where you search for children, SSID should be 生徒コード, find wherever its mentioned and change it
