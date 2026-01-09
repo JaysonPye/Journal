@@ -20,7 +20,8 @@
 
 The deploy will probably take just an hour and be semi functional during this. I would like to do it early in the morning as there is basically no traffic at that time. This strategy leaves me present and available to fix other styling issues that may be found when people get into the office.
 
-
+# 2025/01/9
+- In addition to other photo service changes I'll need a clause to not charge an individual invoice photo service if it only has an afternoon signup + its not special.
 
 # 2025/12/24
 
@@ -50,6 +51,8 @@ The deploy will probably take just an hour and be semi functional during this. I
 
 - AFTERTNOON NO PHOTO SERVICE UNLESS SPECIAL
 - 
+
+
 # 2025/17 mtg notes
 - Afternoon seasonals should have a button (remove combo put it under near there) when there is an actual actual afternoon seasonal that tells us if thats a regular school day for that student (theres a discount)
 - This discount makes the activity not count towards combo bonuses like 1x 3x 5x 10x things, and also only costs 2500yen
@@ -78,9 +81,9 @@ december 29 - january 3rd
 [] course - week - day - lesson - course lesson model spreadsheet import
 [] tests overview - just have view results or edit next ot the test name
 [] inside test view have threshholds listed change edit to edit test parameters, and test results to view student results
-[] ADD PEASON TESTS PROPERLY
-[] ADD PEARSON BATCH REPORTS
-[] style report to daniels pic
+[x] ADD PEASON TESTS PROPERLY
+[x] ADD PEARSON BATCH REPORTS
+[x] style report to daniels pic
 
 
 --hero on soecialist is missing
