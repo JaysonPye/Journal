@@ -1,4 +1,31 @@
 
+# Seasonal pricing changes with estimates
+
+
+## What needs doing
+
+### Gate 2026+ pricing rules
+
+- Add helper to detect events starting in 2026 or later so that pricing only affects those.
+
+### Remove repeater discount for 2026+ events
+
+- skip existing 10000 repeater discount when events start 2026 or later
+
+### Allow photo service across siblings for 2026
+
+- Prevent sibling de-duplication from blocking photo service when the event is under 2026 rules, so multiple siblings can have it.
+
+### Auto-sync photo service across siblings
+
+- Add or remove photo service for all siblings *only* if they have time-slot registrations in that event, including confirmed invoices, and recalc totals after changes.
+
+## Time estimates
+
+- Implementation coding changes etc 4-7 hours
+- Verification testing 1-2 hours
+- Testing - 2-3 hours.
+
 # .JP site implementation estimates.
 
 ### Actual deployment strategy
