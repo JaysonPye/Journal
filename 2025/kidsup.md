@@ -1,3 +1,22 @@
+# New recruitment page estimates - Estimates include importing assets and working through responsive layout issues.
+## Setup - 3-5hrs
+This involves file layouts and planning and assumes final assets are provided and accessible.
+
+## Top page - 12-15
+- Largest amount of time as base styling classes will be set here.
+## Job page 1 (teachers) - 10-14
+- Lay out teacher page and add the slider.
+## Job page 2 (managers) - 3-5
+- Ground work will be done in the teacher section and this reuses much of the styling.
+
+## Polishing - 2-3
+- Work through pages and make sure they are responsive on actual mobile phones.
+
+## Total - 30-40 hours
+- This quote does not include revisions and deployment
+- This is also assuming that the website is being provided as a html/css page, and may be longer if it is being integrated into the WP site.
+- Forms and backend handling are scoped separately. 
+
 
 # Seasonal pricing changes with estimates
 
