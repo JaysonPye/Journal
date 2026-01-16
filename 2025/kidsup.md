@@ -5,11 +5,11 @@
 1. I first add what Mike has recently added to my files - 1-2
 2. I take a snapshot of the current wordpress site - 0.5
 3. Load it onto my local server - 1
-4. Dry run installing the updated files onto the new copy - 1-5
-5. Analyze issues between .jp and my local version and fix them - 1-4
+4. Dry run installing the updated files onto the new copy - 1-4
+5. Analyze issues between .jp and my local version and fix them - 1-3
 6. Make note of what exactly needs to be added as I do the previous steps - 0.5
 7. Carry it out again on live - 0.5-5 (if nothing breaks it will be 30 minutes)
-- Total time 5.5-18 hours
+- Total time 5.5-16 hours
 - Very likely to be on the lower end of this, but I wanted to be realistic in case it isn't.
 ## Issues and Concerns
 
