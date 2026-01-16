@@ -1,3 +1,23 @@
+# WP site integration
+
+## The plan
+
+1. I first add what Mike has recently added to my files - 1-2
+2. I take a snapshot of the current wordpress site - 0.5
+3. Load it onto my local server - 0.5
+4. Dry run installing the updated files onto the new copy - 1-5
+5. Analyze issues between .jp and my local version and fix them - 0.5-3
+6. Make note of what exactly needs to be added as I do the previous steps - 0.5
+7. Carry it out again on live - 0.5-5 (if nothing breaks it will be 30 minutes)
+
+## Issues and Concerns
+
+- Old database/php versions or differing plugin versions may break design layouts and it could take hours to get it looking perfect
+
+## Precautions
+- Keep the snapshot of the site so I can always revert it
+- I'd like to do step 7 at an ungodly hour (3am or something) so that I can make sure to have it working in the morning.
+
 # New recruitment page estimates - Estimates include importing assets and working through responsive layout issues.
 ## Setup - 3-5hrs
 This involves file layouts and planning and assumes final assets are provided and accessible.
