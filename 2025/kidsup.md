@@ -1,70 +1,64 @@
-# WP site integration
-
-## The plan
-
-1. I first add what Mike has recently added to my files - 1-2
-2. I take a snapshot of the current wordpress site - 0.5
-3. Load it onto my local server - 1
-4. Dry run installing the updated files onto the new copy - 1-4
-5. Analyze issues between .jp and my local version and fix them - 1-3
-6. Make note of what exactly needs to be added as I do the previous steps - 0.5
-7. Carry it out again on live - 0.5-5 (if nothing breaks it will be 30 minutes)
-- Total time 5.5-16 hours
-- Very likely to be on the lower end of this, but I wanted to be realistic in case it isn't.
-## Issues and Concerns
-
-- Old database/php versions or differing plugin versions may break design layouts and it could take hours to get it looking perfect
-
-## Precautions
-- Keep the snapshot of the site so I can always revert it
-- I'd like to do step 7 at an ungodly hour (3am or something) so that I can make sure to have it working in the morning.
-
-# New recruitment page estimates - Estimates include importing assets and working through responsive layout issues.
-## Setup - 3-5hrs
-This involves file layouts and planning and assumes final assets are provided and accessible.
-
-## Top page - 12-15
-- Largest amount of time as base styling classes will be set here.
-## Job page 1 (teachers) - 10-14
-- Lay out teacher page and add the slider.
-## Job page 2 (managers) - 3-5
-- Ground work will be done in the teacher section and this reuses much of the styling.
-
-## Polishing - 2-3
-- Work through pages and make sure they are responsive on actual mobile phones.
-
-## Total - 30-40 hours
-- This quote does not include revisions and deployment
-- This is also assuming that the website is being provided as a html/css page, and may be longer if it is being integrated into the WP site.
-- Forms and backend handling are scoped separately. 
+# Jan 25 .JP changes guide
+- This whole handover has been very convoluted as things were put off but continuously added to the old version and expected to be integrated into the new staging site, however no funds are there for staging to be hosted so i'll do it from local on my raspberry pi.
+- Using WP AIO I will create a staging server with the newest save point of the current .jp site, and incremently migrate over files, keeping note of what has been migrated (images are everywhere)
+- Notes will also be added for which ACF fields are added etc until the new staging site is lifelike, at which point i will export this and host it on the PI.
 
 
-# Seasonal pricing changes with estimates
+- Step one - ACF plugin added and front-page tag will have tags added.
+- Step two - old staging sites articles (for testing purposes) will be added to new staging
+- Step three - SCSS plugin added - new scss files pushed over.
+- Step four - front-age and new header/footer pushed over
+- 
+
+### Actual steps taken and failure points
+
+#### plugin related 
+- Add scss plugin set base location current theme scss/css locations to /
+- add ACF plugin - add according to mockup of Hero Details
+- add articles for test examples
+
+#### File related
+- image and img folders first. - do not accept any replacements
+- js folder moved
+- after adding - wp-admin/images/speech-wiunnters/achievement-page/sky-3.webp etc missing (i didnt replace so just didnt come in export, shud be fine)
+- oshiarase page shouldn't include front-page items (can be added to functions.php)
+- ETC folder copied over
+- functions.php
+- big one - scss/css files thrown in with front-page.php
+* header-top.php, footer.php, front-cta-2025.php, front-page.php, anything that says css, style.css, single.php
+- Image check on files outside theme vs old KU pages.
+- 
 
 
-## What needs doing
+### setup and base layout 3-5hrs
+- file structure/ scss setup, header/footer shell 
+- target: feb 4 (completed)
 
-### Gate 2026+ pricing rules
+### Main page + global styles (12-15hrs)
+- core layout, shared ui stuff, pc-mob responsive styles
+- target: feb 6-10
 
-- Add helper to detect events starting in 2026 or later so that pricing only affects those.
+### Job type pages (manager and educators) (10-14hrs)
+- target Feb 10-12
 
-### Remove repeater discount for 2026+ events
+### Bus staff pages (3-5hrs)
 
-- skip existing 10000 repeater discount when events start 2026 or later
+- reuse layout, adjust per role
+- target Feb 12-13
+- 
+### Graduates page (2-3hrs)
+- reuse stylings
+- Target  feb 13-14
 
-### Allow photo service across siblings for 2026
+### Polish (2-3hrs)
 
-- Prevent sibling de-duplication from blocking photo service when the event is under 2026 rules, so multiple siblings can have it.
+- Go through different layout sizing to make sure it's responsive
+- target: feb 14-15
 
-### Auto-sync photo service across siblings
+### Full working time without distractions: feb 15~
 
-- Add or remove photo service for all siblings *only* if they have time-slot registrations in that event, including confirmed invoices, and recalc totals after changes.
 
-## Time estimates
 
-- Implementation coding changes etc 4-7 hours
-- Verification testing 1-2 hours
-- Testing - 2-3 hours.
 
 # .JP site implementation estimates.
 
