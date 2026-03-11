@@ -1,3 +1,12 @@
+# TODO
+
+- Create CI/CD for .jp site
+- LP recruit
+- Password resetter for vision
+
+
+
+
 # Jan 25 .JP changes guide
 - This whole handover has been very convoluted as things were put off but continuously added to the old version and expected to be integrated into the new staging site, however no funds are there for staging to be hosted so i'll do it from local on my raspberry pi.
 - Using WP AIO I will create a staging server with the newest save point of the current .jp site, and incremently migrate over files, keeping note of what has been migrated (images are everywhere)
