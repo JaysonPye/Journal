@@ -5,6 +5,47 @@
 - Password resetter for vision
 
 
+# AI chatbot prototype (Mostly front end work)
+
+## Setup + base layout (1-2hrs)
+- File structure
+- Ideation
+
+## Main UI and responsive styles (3-4hrs)
+- categories area
+- basic desktop + tablet + mobile responsiveness
+
+## Character Animation (3-4hrs)
+- Floating idle
+- Talking states with mouth frames looping
+- blinking? etc
+
+## Voice interaction flow (3hrs)
+- Push-to-talk states
+- playing audio
+- listening timeout (not true speech check, just a timer)
+- "great job!" response sound
+
+## Celebration (1hr)
+- sourcing and deciding on animation with confetti
+- Minor interactions or transition effects
+- quick bug pass
+
+## Final Polish (1-2hrs)
+
+# Assets needed
+### pics
+- Jot character base (transparent png)
+- Same Jot character base with mouth moving frames: closed, mid, open (3 will look okay, 5 would look much better to show the mouth opening/closing)
+- optional: blink eyes, smile frames (to show random animation from the character sometimes)
+
+### audio
+- Question audio clips (maybe 2-3 samples?)
+- Positive feedback clip (Great job!, That's fantastic!) 1 is fine It can rotate some if you want more in the prototype.
+- These questions/answers can probably be random ai etc, I just have no idea about the character's voice etc.
+
+
+
 
 
 # Jan 25 .JP changes guide
