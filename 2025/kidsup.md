@@ -7,33 +7,33 @@
 
 # AI chatbot prototype (Mostly front end work)
 
-## Setup + base layout (1-2hrs)
+### Setup + base layout (1-2hrs)
 - File structure
 - Ideation
 
-## Main UI and responsive styles (3-4hrs)
+### Main UI and responsive styles (3-4hrs)
 - categories area
 - basic desktop + tablet + mobile responsiveness
 
-## Character Animation (3-4hrs)
+### Character Animation (3-4hrs)
 - Floating idle
 - Talking states with mouth frames looping
 - blinking? etc
 
-## Voice interaction flow (3hrs)
+### Voice interaction flow (3hrs)
 - Push-to-talk states
 - playing audio
 - listening timeout (not true speech check, just a timer)
 - "great job!" response sound
 
-## Celebration (1hr)
+### Celebration (1hr)
 - sourcing and deciding on animation with confetti
 - Minor interactions or transition effects
 - quick bug pass
 
-## Final Polish (1-2hrs)
+### Final Polish (1-2hrs)
 
-# Assets needed
+## Assets needed
 ### pics
 - Jot character base (transparent png)
 - Same Jot character base with mouth moving frames: closed, mid, open (3 will look okay, 5 would look much better to show the mouth opening/closing)
