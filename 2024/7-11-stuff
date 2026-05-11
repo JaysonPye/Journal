@@ -1,0 +1,24 @@
+7/11 meeting notes
+
+
+
+
+- Consider guides, how to pair each to each organisation in order to store a kids up one and a vision up one for guides
+- Invoice system
+- calculations based on student numbers for specific organisations
+- lesson plans xport into a formatted pdf into a proper Invoice
+- probably admin panel
+- easily export a billing amount
+- if we put 4500p/s then make a calculation based on that.
+- check and give a timeframe for jack
+
+
+# Important react app changes, specifically new schools should scroll down
+- Scroll down to the current month where a setsu is actually available
+- Used to be functional and now isnt so check old repo changes
+- COMING SOON
+- School on setsu should append from bottom********
+
+# Copy a course but dont link it, we can edit it separately
+- It doesnt need to blinked, just added
+- check timestamp availability for when kids are assigned a level
