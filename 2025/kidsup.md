@@ -1,51 +1,60 @@
 # TODO
 
-- Create CI/CD for .jp site
-- LP recruit
-- Password resetter for vision
+- [] Remove form templates, submissions system
+- [] Remove invoicing system
+- [] Flipper for all classes
+- Create spare org on current plan that can properly use flipper for new feature rollout testing
+-
+# 04/17 notes to mention to Daniel
 
+- What are form templates and submissions, can I remove this system?
+- Invoicing area, not going to be using it right? I'd like to clear it out.
+- []
+- Flipper all classes, move ahead with this?
+- TOP would say home 
+- today's lessons part would be under teacher tools doing left+right then cards under that
 
-# AI chatbot prototype (Mostly front end work)
-
-### Setup + base layout (1-2hrs)
-- File structure
-- Ideation
-
-### Main UI and responsive styles (3-4hrs)
-- categories area
-- basic desktop + tablet + mobile responsiveness
-
-### Character Animation (3-4hrs)
-- Floating idle
-- Talking states with mouth frames looping
-- blinking? etc
-
-### Voice interaction flow (3hrs)
-- Push-to-talk states
-- playing audio
-- listening timeout (not true speech check, just a timer)
-- "great job!" response sound
-
-### Celebration (1hr)
-- sourcing and deciding on animation with confetti
-- Minor interactions or transition effects
-- quick bug pass
-
-### Final Polish (1-2hrs)
-
-## Assets needed
-### pics
-- Jot character base (transparent png)
-- Same Jot character base with mouth moving frames: closed, mid, open (3 will look okay, 5 would look much better to show the mouth opening/closing)
-- optional: blink eyes, smile frames (to show random animation from the character sometimes)
-
-### audio
-- Question audio clips (maybe 2-3 samples?)
-- Positive feedback clip (Great job!, That's fantastic!) 1 is fine It can rotate some if you want more in the prototype.
-- These questions/answers can probably be random ai etc, I just have no idea about the character's voice etc.
+04/17
 
 
 
+# 04/03
+- [] List the positions on the buttons themselves, position is a bit devvy
+- lessons after a search should show as alphabetical order rather than by created date, then i should be able to filter by tittle, status, approved by etc.
+- [x]Search parameters for title should be case insensitive
+
+- [x]Would like writer accounts to be able to see other organisations details (not accounts or students list, but events and resources etc)
+
+- [x]specialist individual cards for every single lesson - find a way for this to work
+
+- [x]4 types, literacy, discussion, project session 1, project session 2, special
+- [x]KU, snack time(resource), conversation time (we set lessons), book activity (resource), topic study (lesson!), lesson review (resource), special lesson
+- [x]specialist all caps to Specialist
+
+[x]Category resources index needs a search bar with category, level, resource category, used by, filename
+
+
+
+- Tutorials renamed and restructured as resources
+- View for users should be the same as lessons should add like section tags we could select so that we can add to diff types and have it appear.
+- training and others for now, can add tags for other stuff.
+
+
+SOS - quick links on teachers/show
+- flipper integration
+admin view where they can curate it.
+2, 5, 10 minute timers, quiz, game, video
+- only show for kidsup
+- Option to add it for other schools, so it needs organisations set and an entire view like tutorials
+
+### MATERIALS
+
+- should show monthly (lessons appearing 1 to 31 etc)
+- teachers should be able to click the attached lesson and have it pop up so they can check the activity
+- Theres no input for keep up materials - needs to be entered as a material on the lesson, not shown to teachers
+- Priority order: evening lessons, SOS tools, resources
+- lesson plans can have 2 materials sections, basic materials and materials to be purchased, concatted for plans, but can be used for monthly materials.
+- materials can be changed to to be purchased, then basic can be a separate field, basics dont go into monthly materials.
 
 
 # Jan 25 .JP changes guide
@@ -159,23 +168,6 @@ The deploy will probably take just an hour and be semi functional during this. I
 - superadmins can promote to admin
 
 
-- AFTERTNOON NO PHOTO SERVICE UNLESS SPECIAL
-- 
-
-
-# 2025/17 mtg notes
-- Afternoon seasonals should have a button (remove combo put it under near there) when there is an actual actual afternoon seasonal that tells us if thats a regular school day for that student (theres a discount)
-- This discount makes the activity not count towards combo bonuses like 1x 3x 5x 10x things, and also only costs 2500yen
-- Add delete button for activities in schools that have no signups ( so we can make a extra day for a school as seasonal and delete the afternoon )
-- button only shows for internal kids, pr[]
-
-- Maybe if theres a PM ACTIVITY it should still show up in the former part if theyve signed up for hte morning (afternoongs get a O and dont go to the bottom
-- bookings page card not centered (wtf)
-)
-# 2025/12 TIME OFF
-photobook for each person and MUST charges siblings coming to same event
-repeater discount removed
-
 december 29 - january 3rd
 # 2025/12 Daniel requests
 
@@ -188,7 +180,7 @@ december 29 - january 3rd
 [] weekdays ,weekends as selectors makes all of em (all weekdays, all week)
 [] makes 5 objects shows one as one if possible in view to make it clean, turn courses
 [] coutrse spreadsheet uploads
-[] course - week - day - lesson - course lesson model spreadsheet import
+[x] course - week - day - lesson - course lesson model spreadsheet import
 [] tests overview - just have view results or edit next ot the test name
 [] inside test view have threshholds listed change edit to edit test parameters, and test results to view student results
 [x] ADD PEASON TESTS PROPERLY
