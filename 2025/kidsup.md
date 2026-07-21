@@ -1,25 +1,29 @@
 # TODO
 
-- [] Remove form templates, submissions system
-- [] Remove invoicing system
+- attendance is no longer being marked for SS kids
+- There was a note whn they sign up for activities saiyng like this is your day, remove it
+- Remove the part where we're saying stay kids on attednace lists
+
+- [x] Remove form templates, submissions system
+- [x] Remove invoicing system
 - [] Flipper for all classes
+
 - Create spare org on current plan that can properly use flipper for new feature rollout testing
--
+
 # 04/17 notes to mention to Daniel
 
 - What are form templates and submissions, can I remove this system?
 - Invoicing area, not going to be using it right? I'd like to clear it out.
 - []
 - Flipper all classes, move ahead with this?
-- TOP would say home 
+- TOP would say home
 - today's lessons part would be under teacher tools doing left+right then cards under that
 
 04/17
 
-
-
 # 04/03
-- [] List the positions on the buttons themselves, position is a bit devvy
+
+- [x] List the positions on the buttons themselves, position is a bit devvy
 - lessons after a search should show as alphabetical order rather than by created date, then i should be able to filter by tittle, status, approved by etc.
 - [x]Search parameters for title should be case insensitive
 
@@ -33,17 +37,15 @@
 
 [x]Category resources index needs a search bar with category, level, resource category, used by, filename
 
-
-
 - Tutorials renamed and restructured as resources
 - View for users should be the same as lessons should add like section tags we could select so that we can add to diff types and have it appear.
 - training and others for now, can add tags for other stuff.
 
-
 SOS - quick links on teachers/show
+
 - flipper integration
-admin view where they can curate it.
-2, 5, 10 minute timers, quiz, game, video
+  admin view where they can curate it.
+  2, 5, 10 minute timers, quiz, game, video
 - only show for kidsup
 - Option to add it for other schools, so it needs organisations set and an entire view like tutorials
 
@@ -56,27 +58,28 @@ admin view where they can curate it.
 - lesson plans can have 2 materials sections, basic materials and materials to be purchased, concatted for plans, but can be used for monthly materials.
 - materials can be changed to to be purchased, then basic can be a separate field, basics dont go into monthly materials.
 
-
 # Jan 25 .JP changes guide
+
 - This whole handover has been very convoluted as things were put off but continuously added to the old version and expected to be integrated into the new staging site, however no funds are there for staging to be hosted so i'll do it from local on my raspberry pi.
 - Using WP AIO I will create a staging server with the newest save point of the current .jp site, and incremently migrate over files, keeping note of what has been migrated (images are everywhere)
 - Notes will also be added for which ACF fields are added etc until the new staging site is lifelike, at which point i will export this and host it on the PI.
-
 
 - Step one - ACF plugin added and front-page tag will have tags added.
 - Step two - old staging sites articles (for testing purposes) will be added to new staging
 - Step three - SCSS plugin added - new scss files pushed over.
 - Step four - front-age and new header/footer pushed over
-- 
+-
 
 ### Actual steps taken and failure points
 
-#### plugin related 
+#### plugin related
+
 - Add scss plugin set base location current theme scss/css locations to /
 - add ACF plugin - add according to mockup of Hero Details
 - add articles for test examples
 
 #### File related
+
 - image and img folders first. - do not accept any replacements
 - js folder moved
 - after adding - wp-admin/images/speech-wiunnters/achievement-page/sky-3.webp etc missing (i didnt replace so just didnt come in export, shud be fine)
@@ -84,29 +87,35 @@ admin view where they can curate it.
 - ETC folder copied over
 - functions.php
 - big one - scss/css files thrown in with front-page.php
-* header-top.php, footer.php, front-cta-2025.php, front-page.php, anything that says css, style.css, single.php
-- Image check on files outside theme vs old KU pages.
-- 
 
+* header-top.php, footer.php, front-cta-2025.php, front-page.php, anything that says css, style.css, single.php
+
+- Image check on files outside theme vs old KU pages.
+-
 
 ### setup and base layout 3-5hrs
-- file structure/ scss setup, header/footer shell 
+
+- file structure/ scss setup, header/footer shell
 - target: feb 4 (completed)
 
 ### Main page + global styles (12-15hrs)
+
 - core layout, shared ui stuff, pc-mob responsive styles
 - target: feb 6-10
 
 ### Job type pages (manager and educators) (10-14hrs)
+
 - target Feb 10-12
 
 ### Bus staff pages (3-5hrs)
 
 - reuse layout, adjust per role
 - target Feb 12-13
+
 ### Graduates page (2-3hrs)
+
 - reuse stylings
-- Target  feb 13-14
+- Target feb 13-14
 
 ### Polish (2-3hrs)
 
@@ -114,9 +123,6 @@ admin view where they can curate it.
 - target: feb 14-15
 
 ### Full working time without distractions: feb 15~
-
-
-
 
 # .JP site implementation estimates.
 
@@ -133,13 +139,14 @@ admin view where they can curate it.
 3. Fix issues found during mock deployment - 1-4 hours
 4. Deploy - 1-4 hours depending on issues that arise.
 
-- *Total* 4-10 hours
+- _Total_ 4-10 hours
 
 ### Deployment timing
 
 The deploy will probably take just an hour and be semi functional during this. I would like to do it early in the morning as there is basically no traffic at that time. This strategy leaves me present and available to fix other styling issues that may be found when people get into the office.
 
 # 2025/01/9
+
 - In addition to other photo service changes I'll need a clause to not charge an individual invoice photo service if it only has an afternoon signup + its not special.
 
 # 2025/12/24
@@ -167,8 +174,8 @@ The deploy will probably take just an hour and be semi functional during this. I
 - all admins can do this
 - superadmins can promote to admin
 
-
 december 29 - january 3rd
+
 # 2025/12 Daniel requests
 
 [] spider graph should cut BL as the max pts before satisfactory
@@ -187,15 +194,8 @@ december 29 - january 3rd
 [x] ADD PEARSON BATCH REPORTS
 [x] style report to daniels pic
 
-
 --hero on soecialist is missing
 front page only scss file with the new one, pull old kidsup one and hope it fixes most of the issues.
-
-
-
-
-
-
 
 # SM kids-up.app requests 9/30
 
@@ -206,10 +206,10 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 - [x] text change of お客様 --> 保護者
 - Change non member to non-member (family of member) for non members to have siblings enrolled,
 - potentially we should make an additional column in the attendance sheet for this family of member thing., so higaisha to higaishakazoku
-- If i add a column I should call it like family of internal? and put check or *maru*
+- If i add a column I should call it like family of internal? and put check or _maru_
 - Add a note on the final confirm page stating itll be sent from bookings@kids-up.app, use the text from excel doc.
 - That will be after the confirm button is pressed.
--  [x] *Also added a few others* update display order of ssid ascending/descending -- put dropdowns to order them. --- hide arrow on print
+- [x] _Also added a few others_ update display order of ssid ascending/descending -- put dropdowns to order them. --- hide arrow on print
 - if student has allergy, remove snack and lunch fees (sm will have t oadd if its needed)
 - Special days people who have photo service in the avo dont appear on the list. Since sp days have separate sheets for am/pm can we extract the whole days sheet.
 - When I test the photo service stuff I need to check it from the SMS event views, not admin.
@@ -218,7 +218,9 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 
 - Winter going live before the 24th so these need to be done by 17th.
 - Please mark off on the excel sheet as these are done.
+
 ### Snacks
+
 - own snack table from ss will be added to imports
 - If a kid is own_snack then they should never be charged with oyatsudai
 - Add the JP text above アレルゲン　enter kudasau thing.
@@ -226,19 +228,14 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 
 - on kid creation have (is this a food allergy) yes or no and (no snack will be given) on no.
 
-
-
 # May
 
 ## Backlog for May is as per the google doc
-
-
 
 ## Dump of things that need to change in seasonal
 
 - make spt/outdoor mix so that specials can include hat things
 - Schools sometimes want to do different concurrent signups for parties or events on the same day, look into adding two at the same time if they want to add it.
-
 
 # LEROY MTG
 
@@ -250,11 +247,7 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 - teachers then mark and return homework
 - Trials - just make a trial account to log into.
 
-
-
 # Temporarily stopped using this as work is asking me to track things elsewhere and I'm just going to be inconsistent here.
-
-
 
 ### Current merch plan
 
@@ -264,7 +257,6 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 [x] Logic tied in to invoices
 [] Manager tracking for which kids bought etc. - this shud be tied to the earlier part for which schools need what - summary for all schools for Admin
 [x] Appropriate spec / model tests fleshed out
-
 
 ### 08/25+26
 
@@ -277,17 +269,20 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 - Very sick, adapted some things Leroy asked for but need to make up some time.
 
 ### 08/21
+
 - [x] Added some logic to the halloween cards
 - [x] Added dates to cards
 - [x] Added card time logic helper to remove times when there are parties, times have been put into the name by leroy to help with some invoice related issue.
 - [x] Leroy MTG
 
 ### 08/20
+
 - [x] Pushed gem updates
 - [x] Test audit as lesson specs were becoming sluggish, many tests had unneccesary :js included.
 - [x] Last changes to lessons, allowed writers to edit their resources among other things.
 
 ### 08/19
+
 - [x] Create hardcoded card inside add_slot for this one off halloween promotion, essentially a card with a set picture that will select multiple parties together.
 - [x] Bugfix issues with afternoon slots not being edited alongside morning slots, resulting in names/dates being wrong on those invoices.
 - [x] Leroy MTG
@@ -301,12 +296,10 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 - [] Create folder structure for future security information
 - [x] Let activity creators (writer's profile) Delete/edit attached files to their created activities or activities they are assigned to.
 
-
 ### 08-12
 
 - Fixed various dependabot alerts like Nokogiri upgrades for both apps.
 - Finalized the changes to exercise and daily activity PDF uploads, more conditionals inside Prawn so that the flow looks good when there is minimal information.
-
 
 ### 08-07
 
@@ -315,15 +308,12 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 - [x] Add name/email of support_request creator to the emails sent.
 - [] Add CSV exports for events so leroy can send it
 
-
 ### 08-07
 
 - [x] Add summary page to reroute after completion.
 - [x] more online ideation
 
-
 ### 08-05
-
 
 - [x] Controller functions to call batch if there are selections
 - [] Add summary page reroute after completion.
@@ -332,14 +322,13 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 
 ### 08-04
 
-- [x] Fix Kindy extension visibility on _child_row in seasonal, adjusted some FIXME calls from bretts old code at the same time to fix N1 query issues.
+- [x] Fix Kindy extension visibility on \_child_row in seasonal, adjusted some FIXME calls from bretts old code at the same time to fix N1 query issues.
 - [x] Plan out the bulk edits for time_slots per school
 - [x] Add schools checker partial to edit timeslot
 - [x] Batch edit button added to edit multiple school time slots based on a combination of date + name.
 - [] Controller functions to call batch if there are selections
 - [] Add summary page reroute after completion.
 - [] Add csv exports for events that leroy can customise and show to dept heads.
-
 
 ### 07/28
 
@@ -351,7 +340,6 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 
 - Worked on invoicing related to merch
 - Have a few things to do on the 22nd so I did a 4 hour work block today.
-
 
 ### 07/18
 
@@ -370,10 +358,12 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 
 - Mapped out possibilities of adding the online course to the vision-up app
 - Tests, migrations, models created for the merchandising.
+
 ### 07/14
 
 - Fixed issue that Abe-san was having
 - Created plan to implement merchandising to the seasonal app
+
 ### 07/07
 
 - Another break from every day since I'm tracking Kidsup progress with the spreadsheets etc
@@ -405,7 +395,6 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 - Pushed the automatic photo on for parties to production.
 - Worked a little less today as I accrued a bunch of overtime yesterday, made leroy aware of it.
 
-
 ### 06/4
 
 - Added new branch for report cards, added gruff gem to generate a new spider chart w/o the help of JS.
@@ -413,7 +402,6 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 - Added auto enabling photo service on the seasonal site, for parties and not seasonals. Sent a video for Leroy to get confirmation before pushing.
 - Added call to action phone buttons to jp site
 - Went through the JP spreadsheet and adjusted the site where it was needed
-
 
 ### 06/3
 
@@ -435,6 +423,7 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 - Add org_lessons to materials so that we can attach lessons to an org, not quite ready for PR today, will be done monday.
 
 ### 05/29
+
 - MTG with Daniel to go over changes
 - MTG with Leroy to discuss some extension payment issue
 - Troubleshooting extension issue, didn't manage to finish this
@@ -455,7 +444,7 @@ front page only scss file with the new one, pull old kidsup one and hope it fixe
 ### 05/26
 
 - Fixed user creation, user creation should use the organizations scope so that an admin can create for all orgs, orgadmin for their org etc.
-Previously if you created an sm or an org admin I would need to manually assign an org in the db.
+  Previously if you created an sm or an org admin I would need to manually assign an org in the db.
 - User creation changes required way more than foreseen, since all different forms needed to pass around org collection as locals in order to avoid using instanced variables in the partials.
 - tests re written to ensure org allocation
 - Waiting til deploy as this isn't necessary.
@@ -466,6 +455,7 @@ Previously if you created an sm or an org admin I would need to manually assign 
 - Did summer event things for Leroy, deleting some old stuff from databases, running checks on if they're working as they should
 - Documentation updates
 - Changed sessions on the seasonal app to timeout after 4 hours.
+
 ### 05/22
 
 - Reviewed some Aussie presentation for Luis.
@@ -479,7 +469,7 @@ Previously if you created an sm or an org admin I would need to manually assign 
 - Found Leroy's bug
 - "confirm in ss" runs an edit/save on invoices which triggers calc_cost again.
 - Needed to try two options. 1. add confirmed to the database and have it only run save when that isnt on or 2.
-have it not run calc_cost if the method is from ss confirm.
+  have it not run calc_cost if the method is from ss confirm.
 - Chose to fix up what was constructed before and just have unless in_ss tagged in a few places.
 
 ### 05/20
@@ -496,6 +486,7 @@ have it not run calc_cost if the method is from ss confirm.
 - Cleaned up card code and moved some things to helper methods.
 
 ### 05/16
+
 - Created homework view for teachers with styling
 - Fixed some visual bugs with parents homework views, it used to have a scrollbar created, turned out to be an issue with tailwind, needed to nest a div under main with dimensions
 - Created homework tests for sms
@@ -506,6 +497,7 @@ have it not run calc_cost if the method is from ss confirm.
 - Looked into leroy's payment issues a little.
 
 ### 05/15
+
 - Generated list of links for Leroy to use to test science fair
 - Worked on party implementation - took a pause on it to think over how we want to do the linking to orgs etc, waiting for daniels feedback on that
 - Answered and ticked off some old support tickets that needed small changes done
@@ -518,6 +510,7 @@ have it not run calc_cost if the method is from ss confirm.
 - MTG with Leroy and Daniel to troubleshoot some payment issues and go over some timelines.
 - Fixed the calendar on the LMS app to include space for Kindy speech lessons.
 - Parties will just have resources - but I want to include adding PNGs over the cards for seasonals/parties, with a fallback svg in case they don't add one.
+
 ### 05/13
 
 - Added levels to homework
