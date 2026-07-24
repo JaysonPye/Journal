@@ -13,7 +13,6 @@
 - bit important design jobs alex will do, little small stuff is an alex thing
 - one of the nicest people in the world, pure
 - Wants to do new stuff to get her finger in more pies, would like some office time if we can do it
--
 
 ### Alex
 
@@ -57,6 +56,11 @@
 - Wonderful human being
 
 ## Tasks
+
+### Answer every SM's little problems
+
+- SMs message asking for help with various services
+- Support them or send them packing to natsuki
 
 ### Monthly campaigns
 
