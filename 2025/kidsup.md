@@ -1,29 +1,21 @@
 # TODO
 
-- attendance is no longer being marked for SS kids
-- There was a note whn they sign up for activities saiyng like this is your day, remove it
-- Remove the part where we're saying stay kids on attednace lists
+- Resources section, prepped the way they'd want it then present it to daniel in working form next Thursday.
+- Links should allow internal links
+- Find a way to let a link send you somewhere that includes all the hotwire stuff inside, eg can open resources section all the way to the resource.
+- 
+- new school LP changes to top and random design disasterpieces in there (double check leroy handled this as its an alex task first)
 
-- [x] Remove form templates, submissions system
-- [x] Remove invoicing system
-- [] Flipper for all classes
+# Robo automation
 
-- Create spare org on current plan that can properly use flipper for new feature rollout testing
-
-# 04/17 notes to mention to Daniel
-
-- What are form templates and submissions, can I remove this system?
-- Invoicing area, not going to be using it right? I'd like to clear it out.
-- []
-- Flipper all classes, move ahead with this?
-- TOP would say home
-- today's lessons part would be under teacher tools doing left+right then cards under that
-
-04/17
+- Decided that we won't look into this as we're too busy in the IT department
+- Speak with hitomi about using Robo to log into SS and retrieve various spreadsheets.
+- Would need to be a non IP locked acct with no power to delete things.
+- All of these exports like daily sheets etc can be automated
 
 # 04/03
 
-- [x] List the positions on the buttons themselves, position is a bit devvy
+- [x]List the positions on the buttons themselves, position is a bit devvy
 - lessons after a search should show as alphabetical order rather than by created date, then i should be able to filter by tittle, status, approved by etc.
 - [x]Search parameters for title should be case insensitive
 
@@ -39,7 +31,7 @@
 
 - Tutorials renamed and restructured as resources
 - View for users should be the same as lessons should add like section tags we could select so that we can add to diff types and have it appear.
-- training and others for now, can add tags for other stuff.
+- - Have addable sections.
 
 SOS - quick links on teachers/show
 
@@ -51,12 +43,12 @@ SOS - quick links on teachers/show
 
 ### MATERIALS
 
-- should show monthly (lessons appearing 1 to 31 etc)
-- teachers should be able to click the attached lesson and have it pop up so they can check the activity
-- Theres no input for keep up materials - needs to be entered as a material on the lesson, not shown to teachers
-- Priority order: evening lessons, SOS tools, resources
-- lesson plans can have 2 materials sections, basic materials and materials to be purchased, concatted for plans, but can be used for monthly materials.
-- materials can be changed to to be purchased, then basic can be a separate field, basics dont go into monthly materials.
+- [x] should show monthly (lessons appearing 1 to 31 etc)
+- [x] teachers should be able to click the attached lesson and have it pop up so they can check the activity
+- [x] Theres no input for keep up materials - needs to be entered as a material on the lesson, not shown to teachers
+- [] Priority order: evening lessons, SOS tools, resources
+- [x] lesson plans can have 2 materials sections, basic materials and materials to be purchased, concatted for plans, but can be used for monthly materials.
+- [x] materials can be changed to to be purchased, then basic can be a separate field, basics dont go into monthly materials.
 
 # Jan 25 .JP changes guide
 
@@ -91,55 +83,12 @@ SOS - quick links on teachers/show
 * header-top.php, footer.php, front-cta-2025.php, front-page.php, anything that says css, style.css, single.php
 
 - Image check on files outside theme vs old KU pages.
--
+
 
 ### setup and base layout 3-5hrs
 
 - file structure/ scss setup, header/footer shell
 - target: feb 4 (completed)
-
-### Main page + global styles (12-15hrs)
-
-- core layout, shared ui stuff, pc-mob responsive styles
-- target: feb 6-10
-
-### Job type pages (manager and educators) (10-14hrs)
-
-- target Feb 10-12
-
-### Bus staff pages (3-5hrs)
-
-- reuse layout, adjust per role
-- target Feb 12-13
-
-### Graduates page (2-3hrs)
-
-- reuse stylings
-- Target feb 13-14
-
-### Polish (2-3hrs)
-
-- Go through different layout sizing to make sure it's responsive
-- target: feb 14-15
-
-### Full working time without distractions: feb 15~
-
-# .JP site implementation estimates.
-
-### Actual deployment strategy
-
-- Take a backup
-- Add new plugin (ACF) and set it up
-- Copy over files that have changed based on mock deploy
-
-### Steps to completion and time estimations
-
-1. Final touches on designs and code cleanup - 1 hour
-2. Mock deployment to a similar server to simulate and find potential bugs. - 1 hours
-3. Fix issues found during mock deployment - 1-4 hours
-4. Deploy - 1-4 hours depending on issues that arise.
-
-- _Total_ 4-10 hours
 
 ### Deployment timing
 

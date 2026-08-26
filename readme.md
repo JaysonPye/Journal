@@ -1,6 +1,5 @@
 # This Journal has been moved to https://github.com/JaysonPye/pyegramming/blob/main/daily-log.md
 
-
 # My Journal
 
 Welcome to my GitHub journal! Here I document my learning journey, projects, and daily thoughts. Recently this has turned more into a daily life blog.
@@ -8,13 +7,16 @@ Welcome to my GitHub journal! Here I document my learning journey, projects, and
 ## Table of Contents
 
 - [kidsup2024](./2024/)
-
   - [August](./2024/08-August/)
   - [September](./2024/09-September/)
 
 - [2025](./2025/)
   - [Kidsup2025](./2025/kidsup)
   - [Daily Journal](./2025/daily-log.md)
+
+  - [2026] (./2026)
+  - [Work Journal](./2026/work-daily.md)
+  - [Daily Journal-defunct](./2025/daily-log.md)
 
 ## About
 
