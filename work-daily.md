@@ -35,13 +35,16 @@ tomorrow: health check, meeting with Leroy as i'm in the office, rashimba accoun
 - [x]Finalize full migrations for the HUB site. All tutorials have had migrations created so that it can seemlessly form into the new system. Once this is set and applied properly teachers can hopefully use this tutorial/resource section as a replacement to needing drive folders.
 - Scraped the Japanese GP sites to rotate the information for the racer's recent results.
 
+### 26/08
 
- ### 26/08
 - Adjusted setsu calendar to show form the month where there are actually open setsus available
 - Mobile edits for the content in the newsletter
 - Daniel laundry list
 
+### 27/08
 
+- Adjusted newsletter based on japanese feedback
+- Added analytics to the vision up hub, including comprehensive analytics for tests, such as school vs average scores, when each school is moving up and how long that has taken
 
 - Add the same for events, lessons can be bundled in this case.
 - analytics data as a csv, and potential analytics page
