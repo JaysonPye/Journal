@@ -45,6 +45,7 @@ tomorrow: health check, meeting with Leroy as i'm in the office, rashimba accoun
 
 - Adjusted newsletter based on japanese feedback
 - Added analytics to the vision up hub, including comprehensive analytics for tests, such as school vs average scores, when each school is moving up and how long that has taken
+- edit setsu calendar to go toward the next month if there are no setsumeikais open on the current month
 
 - Add the same for events, lessons can be bundled in this case.
 - analytics data as a csv, and potential analytics page
