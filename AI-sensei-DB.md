@@ -606,3 +606,190 @@ Fields:
 - timestamp_seconds
 - teacher_guide
 - position
+
+---
+
+## Detailed Database Diagram
+
+Draft application schema with proposed data types. `PK` means primary key,
+`FK` means foreign key, and `UK` means unique key. Each child belongs to
+exactly one parent; a parent can have zero or more children.
+
+This uses the Membership model from the main design: users can belong to
+multiple organisations, with a role on each membership. The alternative
+single-organisation User model in the Rails notes is not used here.
+
+```mermaid
+erDiagram
+    Organisation ||--o{ School : contains
+    Organisation ||--o{ Membership : has
+    User ||--o{ Membership : has
+    School ||--o{ CoursePlan : follows
+    Course ||--o{ CoursePlan : scheduled_by
+    Course ||--o{ Week : contains
+    Week ||--o{ WeeklyVocabularyItem : contains
+    Week ||--o{ Lesson : contains
+    Lesson ||--o{ Video : contains
+    Video ||--o{ Chapter : contains
+    Lesson ||--o{ LessonResource : provides
+    Story ||--o{ StoryChapter : contains
+
+    Organisation {
+        bigint id PK
+        string name
+        datetime created_at
+        datetime updated_at
+    }
+    School {
+        bigint id PK
+        bigint organisation_id FK
+        string name
+        boolean active
+        datetime created_at
+        datetime updated_at
+    }
+    User {
+        bigint id PK
+        string name
+        string email UK
+        string encrypted_password
+        boolean active
+        datetime created_at
+        datetime updated_at
+    }
+    Membership {
+        bigint id PK
+        bigint user_id FK
+        bigint organisation_id FK
+        string role "admin or teacher"
+        datetime created_at
+        datetime updated_at
+    }
+    Course {
+        bigint id PK
+        string name
+        text description
+        datetime published_at "Nullable until published"
+        datetime created_at
+        datetime updated_at
+    }
+    CoursePlan {
+        bigint id PK
+        bigint school_id FK
+        bigint course_id FK
+        date start_date
+        date end_date
+        datetime created_at
+        datetime updated_at
+    }
+    Week {
+        bigint id PK
+        bigint course_id FK
+        string title
+        integer position
+        text target_phrases
+        attachment background_image "Logical attachment, not a column"
+        attachment intro_image "Logical attachment, not a column"
+        datetime created_at
+        datetime updated_at
+    }
+    WeeklyVocabularyItem {
+        bigint id PK
+        bigint week_id FK
+        string name
+        integer position
+        attachment image "Logical attachment, not a column"
+        attachment audio_clip "Logical attachment, not a column"
+        datetime created_at
+        datetime updated_at
+    }
+    Lesson {
+        bigint id PK
+        bigint week_id FK
+        string lesson_type "basic_english or activity_time"
+        string title
+        integer position
+        datetime created_at
+        datetime updated_at
+    }
+    Video {
+        bigint id PK
+        bigint lesson_id FK
+        string title
+        string vimeo_url
+        integer position
+        datetime created_at
+        datetime updated_at
+    }
+    Chapter {
+        bigint id PK
+        bigint video_id FK
+        string title
+        decimal timestamp_seconds
+        integer position
+        text teacher_guide
+        datetime created_at
+        datetime updated_at
+    }
+    LessonResource {
+        bigint id PK
+        bigint lesson_id FK
+        string name
+        string resource_type "worksheet, teacher_prep, lesson_guide, other"
+        integer position
+        attachment file "Logical attachment, not a column"
+        datetime created_at
+        datetime updated_at
+    }
+    Story {
+        bigint id PK
+        string title
+        text description
+        string video_url
+        boolean active
+        integer position
+        datetime created_at
+        datetime updated_at
+    }
+    StoryChapter {
+        bigint id PK
+        bigint story_id FK
+        string title
+        decimal timestamp_seconds
+        integer position
+        text teacher_guide
+        datetime created_at
+        datetime updated_at
+    }
+```
+
+### Proposed constraints and implementation choices
+
+- IDs use `bigint`; `created_at` and `updated_at` are proposed Rails timestamps
+  on every table. Types are design suggestions, not final migrations.
+- Every foreign key shown should be required, indexed, and enforced by a
+  database foreign key constraint. Deletion behaviour still needs deciding.
+- `User.email` should be required and unique, with consistent case
+  normalisation. `encrypted_password` represents the stored password hash,
+  following the Rails notes; plaintext passwords are not stored.
+- Membership should have a composite unique index on `(user_id, organisation_id)`.
+  Each pair gets one membership and one role. Neither column is individually unique.
+- `role`, `lesson_type`, and `resource_type` should be restricted to the
+  values shown in the diagram.
+- `position` orders records within their parent; Story positions order the
+  shared library. Position uniqueness is not assumed in this draft.
+- Chapter timestamps should be non-negative. Decimal seconds allow fractional
+  timestamps; precision and scale remain to be chosen.
+- Course Plan dates should satisfy `end_date >= start_date` when both are
+  present. Whether end dates are required and whether plans can overlap
+  remain open decisions.
+- Attachment rows describe model attachments, not SQL columns. If Rails
+  Active Storage is chosen, its supporting tables hold attachment metadata;
+  those framework tables are outside this application diagram.
+- URLs are used for Video and Story instead of separate Vimeo IDs, following
+  the Rails notes. `target_phrases` is provisionally text.
+- Story Chapters remain optional as a feature. Future vocabulary fields,
+  Hotspots, explicit plan/week dates, and authentication framework support
+  fields are not part of this draft.
+- Required fields beyond IDs, foreign keys, and email, along with defaults
+  for active flags and other fields, still need to be specified.
