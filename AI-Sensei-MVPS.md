@@ -87,3 +87,4 @@
 - "chapters" are sections you cna skip to as timestamps, would be added manually in lessons
 - Check if I can make the app know which chapter theyre in and chase teacher guide based on this
 
+- Concat all chapter guides and have it as a downloadable "lesson guide"
