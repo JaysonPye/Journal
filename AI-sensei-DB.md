@@ -1,5 +1,41 @@
 # General Database Construction Notes
 
+## Database Diagram
+
+This draft shows the relationships from the main design below. It renders
+in Mermaid-compatible Markdown previews, including GitHub. In a plain text
+editor, the diagram remains editable code.
+
+Each relationship connects one parent to zero or more children. Story Time
+is a separate shared library; Story Chapters are an optional feature.
+Attachments and future Hotspots are omitted from this overview.
+
+```mermaid
+erDiagram
+    Organisation ||--o{ School : contains
+    Organisation ||--o{ Membership : has
+    User ||--o{ Membership : has
+    School ||--o{ CoursePlan : follows
+    Course ||--o{ CoursePlan : scheduled_by
+    Course ||--o{ Week : contains
+    Week ||--o{ WeeklyVocabularyItem : contains
+    Week ||--o{ Lesson : contains
+    Lesson ||--o{ Video : contains
+    Video ||--o{ Chapter : contains
+    Lesson ||--o{ LessonResource : provides
+    Story ||--o{ StoryChapter : contains
+```
+
+**Design decision still open:** This diagram follows the main design's
+Membership model, where users can belong to multiple organisations and
+roles live on memberships. The Rails section later in this document instead
+places each user in one organisation with a role on the user. These need
+to be reconciled before implementation.
+
+For dbdiagram.io, the same design can be expressed in a separate `.dbml`
+file. DBML does not render as a diagram directly in Markdown; an exported
+PNG can be embedded here instead if using dbdiagram for the visual layout.
+
 ## Core Structure
 
 Organisation

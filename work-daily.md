@@ -2,6 +2,13 @@
 
 ## This may or may not get used every day, but when something is small I will throw it in here.
 
+
+
+### 10/09
+
+- Created basic database layout for AI sensei.
+- Formalized into graph and shared to kids-wiki.
+- Run testing for vimeo links showing properly to the delevision and hte remote working properly.
 ### 17/08
 
 - Get Daily sheet for Paolo, got the specific sheet from SS and made the conversions needed for paolo to update it.
