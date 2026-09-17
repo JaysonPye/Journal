@@ -2,6 +2,19 @@
 
 ## This may or may not get used every day, but when something is small I will throw it in here.
 
+### 17/09
+
+- Formalize all architecture information for figgny and finish the azure/apple setups.
+- Test prototype in preparation for meeting
+- Meeting to show prototype and decide on the future of the ai sensei product
+- Speak with mizutani about ai related handover.
+
+### 16/09
+
+- Luis was having some issues with vision up hub's category resource and phonics resource displays, I spoke with him about the best way to have it sorted and implemented a fix.
+- Showed the ai sensei layout to mike and made agreements on what would be best to go through during tomorrow's meeting.
+-
+
 ### 10/09
 
 - Created basic database layout for AI sensei.
@@ -9,6 +22,9 @@
 - Run testing for vimeo links showing properly to the delevision and hte remote working properly.
 - MTG about ai sensei, showing proof of concept for pure screen share.
 - Create new ai project repo
+- Create base project files for AI sensei as well as work through which code versions should be use
+- Create documentation for Infra/mvps/database concepts related to AI sensei and uploaded my decisions to wiki.kids-up.app as documentation
+- Change Jack images on the main website with new updated images using different teacher faces.
 
 ### 17/08
 

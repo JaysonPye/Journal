@@ -6,6 +6,9 @@ Welcome to my GitHub journal! Here I document my learning journey, projects, and
 
 ## Table of Contents
 
+- [AI Sensei build board](./progress.md) — Kanban tasks and estimated delivery timeline
+- [Work scratchpad](./work-daily.md) — daily notes and report details
+
 - [kidsup2024](./2024/)
   - [August](./2024/08-August/)
   - [September](./2024/09-September/)
