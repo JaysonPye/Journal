@@ -43,9 +43,10 @@
 
 #### Course Access
 
-- Login
-- Show the Course assigned to the teacher's Organisation
-- Automatically show the current week based on the Organisation's plan
+- Login to one School account context
+- Use separate School records and logins for different curriculum setups; no Organisation model
+- Show the Course assigned to the teacher's School
+- Automatically show the current week based on the School's plan
 - Allow nav to previous/next weeks
 
 #### Week view

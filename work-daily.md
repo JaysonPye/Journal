@@ -2,18 +2,23 @@
 
 ## This may or may not get used every day, but when something is small I will throw it in here.
 
+
+### 18/09
+
+- Added styling foundations, pulling specifically from the basics used in vision up as we will also be utilizing tailwind 3.8
+- Added devise for authentication, created basic user models and testing.
 ### 17/09
 
 - Formalize all architecture information for figgny and finish the azure/apple setups.
 - Test prototype in preparation for meeting
 - Meeting to show prototype and decide on the future of the ai sensei product
-- Speak with mizutani about ai related handover.
+- Speak with mizutani about ai related handover, spoke with him about the tools he is using and took over the accounts for the app, later spoke to Junya regarding the fact that this code is a nice example of some things but won't be overly useful and we can cancel the subscription to replit.
 
 ### 16/09
 
 - Luis was having some issues with vision up hub's category resource and phonics resource displays, I spoke with him about the best way to have it sorted and implemented a fix.
 - Showed the ai sensei layout to mike and made agreements on what would be best to go through during tomorrow's meeting.
--
+
 
 ### 10/09
 

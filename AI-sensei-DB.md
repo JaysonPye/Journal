@@ -4,9 +4,7 @@
 
 ```mermaid
 erDiagram
-    Organisation ||--o{ School : contains
-    Organisation ||--o{ Membership : has
-    User ||--o{ Membership : has
+    School ||--o{ User : has
     School ||--o{ CoursePlan : follows
     Course ||--o{ CoursePlan : scheduled_by
     Course ||--o{ Week : contains
@@ -18,14 +16,19 @@ erDiagram
     Story ||--o{ StoryChapter : contains
 ```
 
-**Design decision still open**
+**School decision:** each user belongs to exactly one school.
+School is the only school/account grouping; there is no Organisation model.
+Store `school_id` and `role` on User; no Membership model is needed.
+Course Plans belong directly to School. Different curriculum setups
+use separate schools and separate logins, not account switching.
+
+Related: [Styling](AI-Sensei-Styling.md) · [Infrastructure](AI-Sensei-Infra.md)
 
 ---
 
 ## Core Structure
 
-Organisation
-└── Schools
+School
 └── Course Plans
 └── Course
 └── Weeks
@@ -36,74 +39,52 @@ Story Time exists separately as a shared library.
 
 ---
 
-## Organisation
-
-The customer/company.
-
-### Fields
-
-- id
-- name
-
-### Relationships
-
-- has many schools
-- has many users through memberships
-
----
-
 ## School
 
-An individual school/location.
-
-Each school can independently follow a Course Plan even if multiple
-schools belong to the same Organisation.
+Represents a school and its curriculum setup. Create separate schools
+and separate user accounts for schools or setups following different curricula.
+There is no parent organisation layer in this design.
 
 ### Fields
 
 - id
-- organisation_id
 - name
-- active
 
 ### Relationships
 
-- belongs to organisation
 - has many course plans
+- has many users
 
 ---
 
 ## User
 
+Each user belongs to exactly one school. Access to another
+school requires a separate login/account. With globally unique email
+addresses, those accounts need distinct email addresses (or email aliases).
+
 ### Fields
 
 - id
+- school_id
 - name
 - email
-- password
+- encrypted_password (Devise; never store plaintext passwords)
+- role
 - active
 
 ### Relationships
 
-- belongs to organisations through memberships
-
----
-
-## Membership
-
-Connects Users to Organisations and defines their role.
-
-### Fields
-
-- id
-- user_id
-- organisation_id
-- role
+- belongs to school
 
 Possible roles:
 
 - admin
 - teacher
+
+Roles are stored on User. Teacher access is scoped to their school
+and its Course Plans through `User.school_id`; no assignment join model is needed. Whether admins
+can manage other schools still needs an explicit authorization decision.
 
 ---
 
@@ -149,14 +130,19 @@ start_date so holidays and skipped weeks can be supported.
 
 ## Week
 
-Represents one week of Course content.
+Represents one numbered week of Course content.
+
+`number` is an integer from 1–52, unique within its course. It identifies
+a curriculum week, not an ISO calendar week. A Rails week enum is unnecessary;
+use a shared `WEEK_NUMBERS = (1..52).freeze` range for validation and selectors.
+The same course content can be reused by Course Plans in different years.
 
 ### Fields
 
 - id
 - course_id
 - title
-- position
+- number
 - target_phrases
 - background_image
 - intro_image
@@ -170,6 +156,39 @@ Represents one week of Course content.
 The Teacher UI should automatically know the week based on the plan.
 
 Teachers can also navigate to previous/next Weeks.
+
+For the initial consecutive-week schedule, a week's date range starts at
+`CoursePlan.start_date + (Week.number - 1) * 7 days` and covers seven days,
+limited by the plan's end date when present. The start date anchors Week 1;
+a new calendar year does not reset the curriculum week number. Holidays and
+skipped weeks would require the explicit plan/week dates described above.
+
+Require an integer `number` in 1–52 and retain a unique database index on
+`(course_id, number)`, with matching model validation and a range check.
+This only prevents duplicate Week containers; it does not limit lesson counts.
+
+### Week lookup and helpers
+
+- Build selector labels such as "Week 1" from the shared 1–52 range.
+- Calculate the course week as `((date - plan.start_date).to_i / 7) + 1`,
+  using date values in the application's time zone.
+- Return no current week outside the plan dates or the 1–52 range; do not
+  wrap or clamp the result into another week.
+- Find the Week by the plan's `course_id` and calculated `number`, then load
+  all its lessons ordered by `position`. A missing Week returns no content.
+- Read a lesson's week number through `lesson.week.number`; avoid storing
+  the same number on Lesson as well.
+
+This follows Hub's numbered curriculum weeks. Hub validates an integer
+`CourseLesson.week` from 1–52; its `day` field is an enum. Its `Courseable`
+concern calculates weeks relative to a plan's start date. AI Sensei keeps
+its separate Week model because vocabulary and other content belong to it.
+
+Source: [Hub CourseLesson](../kidsupIT/vision-up-hub/app/models/course_lesson.rb)
+and [Courseable](../kidsupIT/vision-up-hub/app/models/concerns/courseable.rb).
+A 52-week curriculum is not the same as every calendar week in a year;
+calendar years can include an ISO week 53. Calendar-year scheduling would
+need a separate decision.
 
 ---
 
@@ -233,6 +252,15 @@ each background image.
 ## Lesson
 
 Represents a lesson contained within a Week.
+
+A week can contain multiple lessons of the same type, including multiple
+Activity Time lessons. Do not impose a unique constraint on
+`(week_id, lesson_type)` or require exactly one of each type for publication.
+
+`week_id` identifies the Week container, and `lesson_type` categorises the
+lesson. Require a valid lesson type, but allow it to repeat within a week.
+`position` controls display order. The weekly view loads all matching lessons;
+these records describe content rather than unique per-date bookings.
 
 ### Fields
 
@@ -380,11 +408,9 @@ Optional depending on Story Time requirements.
 
 # Approximate Model Relationships
 
-Organisation
-├── Memberships
-│ └── Users
+School
+├── Users
 │
-└── Schools
 └── Course Plans
 └── Course
 └── Weeks
@@ -413,9 +439,9 @@ Week
 
 # Specific rails structure for DB
 
-## Organisation
+## School
 
-has_many :schools
+has_many :course_plans
 has_many :users
 
 Fields:
@@ -424,24 +450,13 @@ Fields:
 
 ---
 
-## School
-
-belongs_to :organisation
-has_many :course_plans
-
-Fields:
-
-- name
-- active
-
----
-
 ## User
 
-belongs_to :organisation
+belongs_to :school
 
 Fields:
 
+- school_id
 - name
 - email
 - encrypted_password
@@ -473,10 +488,13 @@ belongs_to :course
 has_many :lessons
 has_many :weekly_vocabulary_items
 
+Require an integer `number` from 1–52, unique within `course_id`, backed by
+a composite unique database index. Use the shared range for selectors/helpers.
+
 Fields:
 
 - title
-- position
+- number
 - target_phrases
 
 Attachments:
@@ -503,6 +521,9 @@ Fields:
 belongs_to :week
 has_many :videos
 has_many :lesson_resources
+
+Require a valid `lesson_type`; repeated types in the same week are allowed.
+Use the existing `week_id` association for week lookup, without a week enum.
 
 Fields:
 
@@ -615,15 +636,12 @@ Draft application schema with proposed data types. `PK` means primary key,
 `FK` means foreign key, and `UK` means unique key. Each child belongs to
 exactly one parent; a parent can have zero or more children.
 
-This uses the Membership model from the main design: users can belong to
-multiple organisations, with a role on each membership. The alternative
-single-organisation User model in the Rails notes is not used here.
+Each user belongs to exactly one school through `User.school_id`.
+The user role is stored on User, consistently with the Rails notes above.
 
 ```mermaid
 erDiagram
-    Organisation ||--o{ School : contains
-    Organisation ||--o{ Membership : has
-    User ||--o{ Membership : has
+    School ||--o{ User : has
     School ||--o{ CoursePlan : follows
     Course ||--o{ CoursePlan : scheduled_by
     Course ||--o{ Week : contains
@@ -634,34 +652,20 @@ erDiagram
     Lesson ||--o{ LessonResource : provides
     Story ||--o{ StoryChapter : contains
 
-    Organisation {
-        bigint id PK
-        string name
-        datetime created_at
-        datetime updated_at
-    }
     School {
         bigint id PK
-        bigint organisation_id FK
         string name
-        boolean active
         datetime created_at
         datetime updated_at
     }
     User {
         bigint id PK
+        bigint school_id FK
+        string role "admin or teacher"
         string name
         string email UK
         string encrypted_password
         boolean active
-        datetime created_at
-        datetime updated_at
-    }
-    Membership {
-        bigint id PK
-        bigint user_id FK
-        bigint organisation_id FK
-        string role "admin or teacher"
         datetime created_at
         datetime updated_at
     }
@@ -686,7 +690,7 @@ erDiagram
         bigint id PK
         bigint course_id FK
         string title
-        integer position
+        integer number "1–52; unique per course"
         text target_phrases
         attachment background_image "Logical attachment, not a column"
         attachment intro_image "Logical attachment, not a column"
@@ -772,17 +776,23 @@ erDiagram
 - `User.email` should be required and unique, with consistent case
   normalisation. `encrypted_password` represents the stored password hash,
   following the Rails notes; plaintext passwords are not stored.
-- Membership should have a composite unique index on `(user_id, organisation_id)`.
-  Each pair gets one membership and one role. Neither column is individually unique.
+- `User.school_id` is required and indexed, but not unique: many users
+  can belong to the same school. Each user has one role.
 - `role`, `lesson_type`, and `resource_type` should be restricted to the
   values shown in the diagram.
-- `position` orders records within their parent; Story positions order the
-  shared library. Position uniqueness is not assumed in this draft.
+- `Week.number` is required, an integer in 1–52, and unique within its course:
+  composite unique index on `(course_id, number)` and a range check. This
+  identifies the Week container without restricting the lessons inside it.
+- `Lesson.lesson_type` is required and restricted to the allowed values,
+  but is not unique within a week. Multiple activities in one week are valid.
+  No exactly-one-of-each-type publication rule is proposed.
+- `position` fields order records within their parent; Story positions order
+  the shared library. Position uniqueness is not assumed.
 - Chapter timestamps should be non-negative. Decimal seconds allow fractional
   timestamps; precision and scale remain to be chosen.
 - Course Plan dates should satisfy `end_date >= start_date` when both are
   present. Whether end dates are required and whether plans can overlap
-  remain open decisions.
+  within the same school remain open decisions.
 - Attachment rows describe model attachments, not SQL columns. If Rails
   Active Storage is chosen, its supporting tables hold attachment metadata;
   those framework tables are outside this application diagram.
@@ -791,5 +801,6 @@ erDiagram
 - Story Chapters remain optional as a feature. Future vocabulary fields,
   Hotspots, explicit plan/week dates, and authentication framework support
   fields are not part of this draft.
-- Required fields beyond IDs, foreign keys, and email, along with defaults
+- Required fields beyond IDs, foreign keys, email, `Week.number`, and
+  `Lesson.lesson_type`, along with defaults
   for active flags and other fields, still need to be specified.
