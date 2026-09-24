@@ -2,11 +2,14 @@
 
 ## This may or may not get used every day, but when something is small I will throw it in here.
 
+### 24/09
 
-### 18/09
-
+- Added edits to the company site to fix some title issues as well as add some spacing differences.
+- Created the Minami Senju landing page for advertisements in the future
+- Changed some Minami Senju school information related to school drop off points, as well as the proper pin to the map that is on the school page.
 - Added styling foundations, pulling specifically from the basics used in vision up as we will also be utilizing tailwind 3.8
 - Added devise for authentication, created basic user models and testing.
+
 ### 17/09
 
 - Formalize all architecture information for figgny and finish the azure/apple setups.
@@ -18,7 +21,6 @@
 
 - Luis was having some issues with vision up hub's category resource and phonics resource displays, I spoke with him about the best way to have it sorted and implemented a fix.
 - Showed the ai sensei layout to mike and made agreements on what would be best to go through during tomorrow's meeting.
-
 
 ### 10/09
 
