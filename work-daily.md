@@ -2,6 +2,30 @@
 
 ## This may or may not get used every day, but when something is small I will throw it in here.
 
+### 29/09
+
+- Added a plain-language overview of the AI Sensei database design for explaining how teaching content is organised to nontechnical colleagues.
+
+#### How AI Sensei organises teaching content
+
+Each school has a plan that selects a course and its start date. That tells the system which week's lessons and vocabulary to show teachers. Lessons contain videos and materials. Story Time is a separate shared library.
+
+Schools can use the same course but start on different dates. The course holds the teaching content; each school's course plan sets its schedule.
+
+```mermaid
+flowchart TD
+    A["Teacher logs in"] --> B["Their school"]
+    B --> C["School's course plan<br/>Which course and when it starts"]
+    C --> D["Find the current teaching week"]
+    D --> E["Weekly vocabulary<br/>Pictures and pronunciation"]
+    D --> F["Lessons<br/>Basic English and Activity Time"]
+    F --> G["Videos<br/>With chapter shortcuts and teaching notes"]
+    F --> H["Materials<br/>Worksheets and lesson guides"]
+    A --> I["Shared Story Time library<br/>Choose an available story"]
+```
+
+See the [database design notes](./AI-sensei-DB.md) for the technical details.
+
 ### 24/09
 
 - Added edits to the company site to fix some title issues as well as add some spacing differences.
